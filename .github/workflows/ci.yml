@@ -107,10 +107,13 @@ jobs:
           if-no-files-found: error
 
   deploy-ficsit-page:
-    name: Update hidden ficsit.app page
+    name: Update ficsit.app mod information before release
     needs: build
     if: >-
-      vars.ENABLE_FAXITREBORN_PAGE_DEPLOY == 'true' &&
+      (vars.ENABLE_FAXITREBORN_PAGE_DEPLOY == 'true' ||
+      (vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
+      needs.build.outputs.release_ready == 'true' &&
+      needs.build.outputs.content_changed == 'true')) &&
       github.ref == 'refs/heads/main' &&
       (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: arc-runner-set
@@ -136,7 +139,7 @@ jobs:
           name: FaxitReborn-${{ needs.build.outputs.version }}
           path: release
 
-      - name: Update ficsit.app metadata and description
+      - name: Update name, short description, and full description
         env:
           FICSIT_TOKEN: ${{ secrets.FICSIT_TOKEN }}
         shell: bash
@@ -149,7 +152,7 @@ jobs:
 
   release-github:
     name: Create GitHub release
-    needs: build
+    needs: [build, deploy-ficsit-page]
     if: >-
       vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
       needs.build.outputs.release_ready == 'true' &&
@@ -178,7 +181,7 @@ jobs:
 
   release-ficsit:
     name: Upload mod to ficsit.app
-    needs: [build, release-github]
+    needs: [build, deploy-ficsit-page, release-github]
     if: >-
       vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
       needs.build.outputs.release_ready == 'true' &&
