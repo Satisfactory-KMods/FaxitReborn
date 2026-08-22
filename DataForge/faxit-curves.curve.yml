@@ -1,0 +1,47 @@
+type: curve
+curveType: float
+curves:
+  - id: RewardCostMultiplier
+    defaultValue: 1
+    preInfinityExtrap: constant
+    postInfinityExtrap: constant
+    keys:
+      - time: 0
+        value: 1
+        interpMode: constant
+      - time: 49
+        value: 5
+        interpMode: constant
+  - id: RewardSolidAmountCap
+    defaultValue: 100000
+    preInfinityExtrap: constant
+    postInfinityExtrap: constant
+    keys:
+      - time: 0
+        value: 200
+        interpMode: constant
+      - time: 49
+        value: 2000
+        interpMode: constant
+  - id: RecyclingCostMultiplier
+    defaultValue: 50
+    preInfinityExtrap: constant
+    postInfinityExtrap: constant
+    keys:
+      - time: 0
+        value: 50
+        interpMode: constant
+      - time: 49
+        value: 50
+        interpMode: constant
+  - id: RecyclingSolidAmountCap
+    defaultValue: 10000
+    preInfinityExtrap: constant
+    postInfinityExtrap: constant
+    keys:
+      - time: 0
+        value: 10000
+        interpMode: constant
+      - time: 49
+        value: 10000
+        interpMode: constant

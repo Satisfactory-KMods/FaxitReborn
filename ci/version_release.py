@@ -86,7 +86,7 @@ def main() -> int:
         root = args.root.resolve()
         plugin_path = root / "FaxitReborn.uplugin"
         update_plugin(plugin_path, version)
-        update_pack(root / "DataForge" / "FaxitReborn" / "pack.yml", version)
+        update_pack(root / "DataForge" / "pack.yml", version)
         blocked_dependencies = blocked_release_dependencies(plugin_path)
     except ValueError as error:
         raise SystemExit(str(error)) from error

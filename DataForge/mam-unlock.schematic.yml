@@ -1,0 +1,6 @@
+type: schematic
+schematics:
+  - class: /Game/FactoryGame/Schematics/Progression/Schematic_1-3.Schematic_1-3_C
+    register: false
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_DeliveryTaskUnlock.BP_DeliveryTaskUnlock_C

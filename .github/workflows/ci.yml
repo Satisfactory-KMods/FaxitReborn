@@ -52,10 +52,12 @@ jobs:
           echo "release_ready=$RELEASE_READY" >> "$GITHUB_OUTPUT"
 
       - name: Lint KDataForge content
-        run: >-
-          uv run --locked kdataforge-linter lint DataForge
-          --format github
         shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/kdataforge-lint/FaxitReborn"
+          cp -R DataForge "$RUNNER_TEMP/kdataforge-lint/FaxitReborn/DataForge"
+          uv run --locked kdataforge-linter lint "$RUNNER_TEMP/kdataforge-lint" \
+            --format github
 
       - name: Render committed changelog
         shell: bash

@@ -1,0 +1,3045 @@
+type: dataasset
+assets:
+  # Each repeatable alien-artifact endpoint opens two five-node upgrade branches after ten completions.
+  # Every node costs one matching artifact plus 1-5 Resource Sink Coupons by branch step.
+  # Each unlock adds exactly one slot or one Depot stack.
+  - id: Upgrade_Somersloop_1_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -10
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_1_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -11
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_1_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -12
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_1_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_1_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -13
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_1_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -10
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+
+  - id: Upgrade_Somersloop_1_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -11
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_1_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -12
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_1_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_1_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop I Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 50
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_1_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -11
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_1_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -12
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_1_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -13
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_1_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_1_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_1_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -11
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_1_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -12
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_1_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -13
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_1_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_1_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer I Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 49
+      - path: mCoordinate
+        value:
+          X: 13
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_2_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -12
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_2_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_2_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_2_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_2_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -13
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_2_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -12
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_2_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_2_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_2_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_2_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop II Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 48
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_2_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -13
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_2_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_2_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_2_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_2_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_2_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -13
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_2_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_2_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_2_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_2_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer II Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 47
+      - path: mCoordinate
+        value:
+          X: 13
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_3_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_3_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_3_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_3_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -17
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_3_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -13
+          Y: -18
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_3_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -14
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_3_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_3_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_3_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -17
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_3_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop III Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 46
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -18
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_3_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -15
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_3_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_3_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_3_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -18
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_3_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -19
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_3_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_3_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_3_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_3_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -18
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_3_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer III Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 45
+      - path: mCoordinate
+        value:
+          X: 13
+          Y: -19
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_4_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_4_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_4_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -17
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_4_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -18
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_4_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -19
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_4_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -15
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_4_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -16
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_4_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -17
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_4_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -18
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_4_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop IV Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 44
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -19
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_4_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -16
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_4_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_4_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -18
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_4_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -19
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_4_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -20
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_4_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_4_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -17
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_4_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -18
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_4_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -19
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_4_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer IV Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 43
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -20
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_5_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -8
+          Y: -17
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_5_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -9
+          Y: -18
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_5_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -10
+          Y: -19
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_5_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -11
+          Y: -20
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_5_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -12
+          Y: -21
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Somersloop_5_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -17
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_5_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -18
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_5_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -19
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_5_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -20
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Somersloop_5_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Somersloop V Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 42
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -21
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_5_Inventory_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Inventory Slot 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -18
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_5_Inventory_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Inventory Slot 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -19
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_5_Inventory_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Inventory Slot 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -20
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_5_Inventory_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Inventory Slot 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -21
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_5_Inventory_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Inventory Slot 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -22
+      - path: mParentTask
+        value: 8
+        # Bottom
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+        properties:
+          - path: mNumInventorySlotsToUnlock
+            value: 1
+
+  - id: Upgrade_Mercer_5_DepotStack_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Depot Stack 1"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 8
+          Y: -18
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mRequiredParentCompletions
+        value: 10
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 1
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_5_DepotStack_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Depot Stack 2"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 9
+          Y: -19
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 2
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_5_DepotStack_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Depot Stack 3"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 10
+          Y: -20
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 3
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_5_DepotStack_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Depot Stack 4"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 11
+          Y: -21
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 4
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1
+
+  - id: Upgrade_Mercer_5_DepotStack_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Mercer V Depot Stack 5"
+      - path: mDescription
+        value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 41
+      - path: mCoordinate
+        value:
+          X: 12
+          Y: -22
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 5
+    unlocks:
+      - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageItemLimit.BP_UnlockCentralStorageItemLimit_C
+        properties:
+          - path: mItemStackLimitIncrease
+            value: 1

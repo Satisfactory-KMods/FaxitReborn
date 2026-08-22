@@ -1,0 +1,1056 @@
+type: dataasset
+assets:
+  # Outer calibration gates. Every gate consumes vanilla items and returns a vanilla item reward.
+  - id: Gate_SolidCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Solid Calibration III"
+      - path: mDescription
+        value: "Validate solid packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/Motor/UI/IconDesc_Engine_64.IconDesc_Engine_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -4
+          Y: -5
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 200
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+            Amount: 25
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 1
+  - id: Gate_SolidCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Solid Calibration IV"
+      - path: mDescription
+        value: "Validate solid packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/CircuitBoard/UI/IconDesc_CircuitBoard_64.IconDesc_CircuitBoard_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -5
+          Y: -6
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 100
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 500
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
+            Amount: 5
+  - id: Gate_SolidCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Solid Calibration V"
+      - path: mDescription
+        value: "Validate solid packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_64.IconDesc_ModularFrameHeavy_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -6
+          Y: -7
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 25
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 2
+  - id: Gate_SolidCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Solid Calibration VI"
+      - path: mDescription
+        value: "Certify solid recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/UI/IconDesc_HighSpeedConnector_64.IconDesc_HighSpeedConnector_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -8
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
+            Amount: 125
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 25
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
+            Amount: 5
+
+  - id: Gate_FluidCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Fluid Calibration III"
+      - path: mDescription
+        value: "Validate fluid packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_64.IconDesc_SteelPipe_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -6
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 300
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 200
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 1
+  - id: Gate_FluidCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Fluid Calibration IV"
+      - path: mDescription
+        value: "Validate fluid packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_64.IconDesc_Plastic_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -7
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+            Amount: 300
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 300
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
+            Amount: 5
+  - id: Gate_FluidCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Fluid Calibration V"
+      - path: mDescription
+        value: "Validate fluid packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/CoolingSystem/UI/IconDesc_CoolingSystem_64.IconDesc_CoolingSystem_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -8
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 2
+  - id: Gate_FluidCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Fluid Calibration VI"
+      - path: mDescription
+        value: "Certify fluid recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -9
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 25
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
+            Amount: 5
+
+  - id: Gate_DeliveryCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Delivery Calibration III"
+      - path: mDescription
+        value: "Validate delivery packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -4
+          Y: -7
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 200
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 2
+  - id: Gate_DeliveryCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Delivery Calibration IV"
+      - path: mDescription
+        value: "Validate delivery packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_64.IconDesc_ModularFrameHeavy_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -5
+          Y: -8
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
+            Amount: 5
+  - id: Gate_DeliveryCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Delivery Calibration V"
+      - path: mDescription
+        value: "Validate delivery packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -6
+          Y: -9
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 3
+  - id: Gate_DeliveryCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Delivery Calibration VI"
+      - path: mDescription
+        value: "Certify automated recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -10
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
+            Amount: 5
+
+  - id: Gate_TerminalCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Terminal Calibration III"
+      - path: mDescription
+        value: "Validate remote packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -8
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 3
+  - id: Gate_TerminalCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Terminal Calibration IV"
+      - path: mDescription
+        value: "Validate remote packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_64.IconDesc_CrystalOscillator_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -9
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
+            Amount: 5
+  - id: Gate_TerminalCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Terminal Calibration V"
+      - path: mDescription
+        value: "Validate remote packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -10
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 75
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 75
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 4
+  - id: Gate_TerminalCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Terminal Calibration VI"
+      - path: mDescription
+        value: "Certify remote recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -11
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 35
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 75
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
+            Amount: 5
+
+  - id: Gate_BackboneCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Backbone Calibration III"
+      - path: mDescription
+        value: "Validate backbone packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/RadioControlUnit/UI/IconDesc_RadioControlUnit_64.IconDesc_RadioControlUnit_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -4
+          Y: -9
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 750
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C
+            Amount: 50
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 4
+  - id: Gate_BackboneCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Backbone Calibration IV"
+      - path: mDescription
+        value: "Validate backbone packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -5
+          Y: -10
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
+            Amount: 5
+  - id: Gate_BackboneCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Backbone Calibration V"
+      - path: mDescription
+        value: "Validate backbone packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -6
+          Y: -11
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 40
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 5
+  - id: Gate_BackboneCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Backbone Calibration VI"
+      - path: mDescription
+        value: "Certify backbone recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -7
+          Y: -12
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 100
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 10
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
+            Amount: 5
+
+  - id: Gate_MediumDriveCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Medium Disk Calibration III"
+      - path: mDescription
+        value: "Validate medium-disk packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -10
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 4
+  - id: Gate_MediumDriveCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Medium Disk Calibration IV"
+      - path: mDescription
+        value: "Validate medium-disk packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -11
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 75
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
+            Amount: 5
+  - id: Gate_MediumDriveCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Medium Disk Calibration V"
+      - path: mDescription
+        value: "Validate medium-disk packet buffering."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -12
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 5
+  - id: Gate_MediumDriveCalibration_6
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Medium Disk Calibration VI"
+      - path: mDescription
+        value: "Certify medium-disk recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 7
+          Y: -13
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 100
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 15
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
+            Amount: 5
+
+  - id: Gate_LargeDriveCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Large Disk Calibration III"
+      - path: mDescription
+        value: "Validate large-disk packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -4
+          Y: -11
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 500
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 5
+  - id: Gate_LargeDriveCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Large Disk Calibration IV"
+      - path: mDescription
+        value: "Validate large-disk packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -5
+          Y: -12
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 60
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 125
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
+            Amount: 5
+  - id: Gate_LargeDriveCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Large Disk Calibration V"
+      - path: mDescription
+        value: "Certify large-disk recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -6
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 125
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 18
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 6
+
+  - id: Gate_HugeDriveCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Calibration III"
+      - path: mDescription
+        value: "Validate huge-disk packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -12
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 100
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 5
+  - id: Gate_HugeDriveCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Calibration IV"
+      - path: mDescription
+        value: "Validate huge-disk packet routing."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -13
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 75
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 150
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C
+            Amount: 5
+  - id: Gate_HugeDriveCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Calibration V"
+      - path: mDescription
+        value: "Certify huge-disk recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 150
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 22
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 7
+
+  - id: Gate_ThroughputCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Throughput Calibration III"
+      - path: mDescription
+        value: "Validate delivery throughput compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -4
+          Y: -13
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 150
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 150
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 6
+  - id: Gate_ThroughputCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Throughput Calibration IV"
+      - path: mDescription
+        value: "Validate delivery throughput routing."
+      - path: mIcon
+        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_QuantumProcessor_512.Icon_TimeC_QuantumProcessor_512
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -5
+          Y: -14
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 150
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 20
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C
+            Amount: 5
+  - id: Gate_ThroughputCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Throughput Calibration V"
+      - path: mDescription
+        value: "Certify delivery throughput recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: -6
+          Y: -15
+      - path: mParentTask
+        value: 128
+        # BelowRight
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 175
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 30
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 8
+
+  - id: Gate_OverflowCalibration_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Overflow Calibration III"
+      - path: mDescription
+        value: "Validate overflow packet compression."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -14
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 200
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 150
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 7
+  - id: Gate_OverflowCalibration_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Overflow Calibration IV"
+      - path: mDescription
+        value: "Validate overflow packet routing."
+      - path: mIcon
+        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_QuantumProcessor_512.Icon_TimeC_QuantumProcessor_512
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -15
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 250
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C
+            Amount: 5
+  - id: Gate_OverflowCalibration_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Overflow Calibration V"
+      - path: mDescription
+        value: "Certify overflow recovery channel."
+      - path: mIcon
+        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+      - path: mTags
+        value:
+          - KMods.Delivery.GateUnlock
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -16
+      - path: mParentTask
+        value: 64
+        # BelowLeft
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 200
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 40
+      - path: mRewards
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 10

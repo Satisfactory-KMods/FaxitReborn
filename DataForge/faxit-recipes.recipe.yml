@@ -1,0 +1,423 @@
+type: recipe
+recipes:
+  # Faxit optical production chain. Raw Kerr Crystal is intentionally not used; Reanimated SAM is stabilized
+  # inside a Polarization Frame to produce the Poled Kerr Crystal required by every later component.
+  - id: Recipe_Faxit_PolarizationFrame
+    properties:
+      - path: mDisplayName
+        value: Polarization Frame
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 6
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 6
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
+            Amount: 2
+      - path: mManufactoringDuration
+        value: 7.5
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
+  - id: Recipe_Faxit_PoledKerrCrystal
+    properties:
+      - path: mDisplayName
+        value: Poled Kerr Crystal
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
+            Amount: 2
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
+            Amount: 1
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 5
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
+  - id: Recipe_Faxit_DataCable
+    properties:
+      - path: mDisplayName
+        value: Data Cable
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
+            Amount: 20
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 2
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 20
+      - path: mManufactoringDuration
+        value: 10
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
+  - id: Recipe_Faxit_QuantumCableAdapter
+    properties:
+      - path: mDisplayName
+        value: Quantum Cable Adapter
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C
+            Amount: 2
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 10
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 2
+      - path: mManufactoringDuration
+        value: 20
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+  - id: Recipe_Faxit_PhotonicProcessor
+    properties:
+      - path: mDisplayName
+        value: Photonic Processor
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 4
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 4
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 2
+          - ItemClass: /Game/FactoryGame/Resource/Parts/TimeCrystal/Desc_TimeCrystal.Desc_TimeCrystal_C
+            Amount: 10
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 60
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+
+  # Existing KLib build recipes stay authoritative for products, categories and build-gun behavior.
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable.Recipe_CS_Cable_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 1
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_2.Recipe_CS_Cable_2_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 1
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_3.Recipe_CS_Cable_3_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 1
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_4.Recipe_CS_Cable_4_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 1
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_5.Recipe_CS_Cable_5_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 1
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Core.Recipe_CS_Core_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 40
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 100
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Delivery.Recipe_CS_Delivery_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 2
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 5
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 5
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 50
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Input_Fluid.Recipe_CS_Input_Fluid_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 5
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_InputSolid.Recipe_CS_InputSolid_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 10
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 5
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Output_Fluid.Recipe_CS_Output_Fluid_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 10
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Output_Solid.Recipe_CS_Output_Solid_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 10
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 10
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_PoleStand.Recipe_CS_PoleStand_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 2
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+            Amount: 5
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_PoleStand_2.Recipe_CS_PoleStand_2_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 5
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+            Amount: 10
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_Cs_PoleWall.Recipe_Cs_PoleWall_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 1
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 10
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_PoleWallDouble.Recipe_CS_PoleWallDouble_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 2
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 20
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Terminal.Recipe_CS_Terminal_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 5
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 5
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 100
+  - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Tower.Recipe_CS_Tower_C
+    properties:
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 100
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 200
+
+  # KLib ships gas descriptors but no build recipes. These two recipes make both variants accessible.
+  - id: Recipe_Faxit_InputGas
+    properties:
+      - path: mDisplayName
+        value: Faxit Gas Input
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 15
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+            Amount: 20
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 5
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Buildings/Faxit/BuildDesc/BuildDesc_CS_Input_Gas.BuildDesc_CS_Input_Gas_C
+            Amount: 1
+      - path: mProducedIn
+        value:
+          - /Script/FactoryGame.FGBuildGun
+  - id: Recipe_Faxit_OutputGas
+    properties:
+      - path: mDisplayName
+        value: Faxit Gas Output
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 15
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 20
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 10
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Buildings/Faxit/BuildDesc/BuildDesc_CS_Output_Gas.BuildDesc_CS_Output_Gas_C
+            Amount: 1
+      - path: mProducedIn
+        value:
+          - /Script/FactoryGame.FGBuildGun
+
+  # Dimensional drives consume progressively deeper components from the same Faxit optical chain.
+  - id: Recipe_FaxitDrive_Mk1
+    properties:
+      - path: mDisplayName
+        value: Small Faxit Disk
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+            Amount: 2
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 25
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk1.Desc_Faxit_DimensionalDrive_Mk1_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 20
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
+  - id: Recipe_FaxitDrive_Mk2
+    properties:
+      - path: mDisplayName
+        value: Medium Faxit Disk
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+            Amount: 15
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 20
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk2.Desc_Faxit_DimensionalDrive_Mk2_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 30
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+  - id: Recipe_FaxitDrive_Mk3
+    properties:
+      - path: mDisplayName
+        value: Large Faxit Disk
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 25
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 100
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk3.Desc_Faxit_DimensionalDrive_Mk3_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 45
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+  - id: Recipe_FaxitDrive_Mk4
+    properties:
+      - path: mDisplayName
+        value: Huge Faxit Disk
+      - path: mDisplayNameOverride
+        value: true
+      - path: mIngredients
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 20
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 10
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 10
+      - path: mProduct
+        value:
+          - ItemClass: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk4.Desc_Faxit_DimensionalDrive_Mk4_C
+            Amount: 1
+      - path: mManufactoringDuration
+        value: 60
+      - path: mProducedIn
+        value:
+          - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
