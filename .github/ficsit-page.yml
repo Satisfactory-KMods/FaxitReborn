@@ -3,7 +3,7 @@ modReference: FaxitReborn
 name: Faxit Reborn
 shortDescription: Standalone Faxit network logistics. Not compatible with SatisfactoryPlus.
 sourceUrl: https://github.com/Satisfactory-KMods/FaxitReborn
-hidden: true
+hidden: false
 networkUseDisclosure: Faxit Reborn makes no external network requests at runtime.
 aiUseDisclosure:
   type: ai_usage

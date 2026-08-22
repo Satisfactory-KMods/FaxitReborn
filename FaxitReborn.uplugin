@@ -22,22 +22,22 @@
 		},
 		{
 			"Name": "KDataForge",
-			"SemVersion": ">=9999.9.9",
+			"SemVersion": ">=2026.3.485",
 			"Enabled": true
 		},
 		{
 			"Name": "KAPI",
-			"SemVersion": ">=9999.9.9",
+			"SemVersion": ">=2026.3.481",
 			"Enabled": true
 		},
 		{
 			"Name": "KPrivateCodeLib",
-			"SemVersion": ">=9999.9.9",
+			"SemVersion": ">=2026.3.489",
 			"Enabled": true
 		},
 		{
 			"Name": "KLib",
-			"SemVersion": ">=9999.9.9",
+			"SemVersion": ">=2026.3.489",
 			"Enabled": true
 		}
 	],

@@ -1,4 +1,4 @@
-Initial prerelease: standalone Faxit progression for players who do not use SatisfactoryPlus.
+Initial release: standalone Faxit progression for players who do not use SatisfactoryPlus.
 
 - Adds Faxit item, fluid, and gas network progression.
 - Adds transfer-speed and network-capacity upgrades.
