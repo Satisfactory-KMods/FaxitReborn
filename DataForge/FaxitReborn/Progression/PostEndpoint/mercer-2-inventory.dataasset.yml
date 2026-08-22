@@ -1,0 +1,93 @@
+type: dataasset
+assets:
+- id: Upgrade_Mercer_2_Inventory_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer II Inventory Slot 1}
+  - {path: mDescription, value: Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 47}
+  - path: mCoordinate
+    value: {X: 8, Y: -13}
+  - {path: mParentTask, value: 8}
+  - {path: mRequiredParentCompletions, value: 10}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 1}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+    properties:
+    - {path: mNumInventorySlotsToUnlock, value: 1}
+- id: Upgrade_Mercer_2_Inventory_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer II Inventory Slot 2}
+  - {path: mDescription, value: Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 47}
+  - path: mCoordinate
+    value: {X: 9, Y: -14}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 2}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+    properties:
+    - {path: mNumInventorySlotsToUnlock, value: 1}
+- id: Upgrade_Mercer_2_Inventory_3
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer II Inventory Slot 3}
+  - {path: mDescription, value: Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 47}
+  - path: mCoordinate
+    value: {X: 10, Y: -15}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 3}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+    properties:
+    - {path: mNumInventorySlotsToUnlock, value: 1}
+- id: Upgrade_Mercer_2_Inventory_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer II Inventory Slot 4}
+  - {path: mDescription, value: Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 47}
+  - path: mCoordinate
+    value: {X: 11, Y: -16}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 4}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+    properties:
+    - {path: mNumInventorySlotsToUnlock, value: 1}
+- id: Upgrade_Mercer_2_Inventory_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer II Inventory Slot 5}
+  - {path: mDescription, value: Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 47}
+  - path: mCoordinate
+    value: {X: 12, Y: -17}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 5}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockInventorySlot.BP_UnlockInventorySlot_C
+    properties:
+    - {path: mNumInventorySlotsToUnlock, value: 1}

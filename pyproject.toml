@@ -1,0 +1,12 @@
+[project]
+name = "faxit-reborn-ci"
+version = "0.1.0"
+description = "Faxit Reborn release, verification, and ficsit.app page tooling"
+requires-python = ">=3.11"
+dependencies = [
+	"kdataforge-linter @ git+https://github.com/Satisfactory-KMods/KDataForge-Linter.git@v2026.3.7",
+	"PyYAML>=6.0,<7",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,76 @@
+type: dataasset
+assets:
+- id: Reward_Somersloop_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Somersloop Recovery IV}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Somersloop per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64}
+  - {path: mPriority, value: 64}
+  - path: mCoordinate
+    value: {X: -7, Y: -14}
+  - {path: mParentTask, value: 128}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 4}
+        UpperBound: {Type: Exclusive, Value: 13}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 16}
+        UpperBound: {Type: Exclusive, Value: 49}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}
+- id: Reward_Mercer_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer Recovery IV}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64}
+  - {path: mPriority, value: 63}
+  - path: mCoordinate
+    value: {X: 7, Y: -15}
+  - {path: mParentTask, value: 64}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 4}
+        UpperBound: {Type: Exclusive, Value: 13}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 83}
+        UpperBound: {Type: Exclusive, Value: 252}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CopperDust/Desc_CopperDust.Desc_CopperDust_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}

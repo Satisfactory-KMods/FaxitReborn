@@ -1,0 +1,112 @@
+type: dataasset
+assets:
+- id: Gate_TerminalCalibration_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration I}
+  - {path: mDescription, value: Harden remote terminal compute paths before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64}
+  - {path: mPriority, value: 74}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 2, Y: -6}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C, Amount: 50}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 2}
+- id: Gate_TerminalCalibration_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration II}
+  - {path: mDescription, value: Synchronize remote-access clocks before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_64.IconDesc_CrystalOscillator_64}
+  - {path: mPriority, value: 73}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 3, Y: -7}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C, Amount: 5}
+- id: Gate_TerminalCalibration_3
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration III}
+  - {path: mDescription, value: Validate remote packet compression.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 4, Y: -8}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C, Amount: 100}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 3}
+- id: Gate_TerminalCalibration_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration IV}
+  - {path: mDescription, value: Validate remote packet routing.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_64.IconDesc_CrystalOscillator_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 5, Y: -9}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C, Amount: 5}
+- id: Gate_TerminalCalibration_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration V}
+  - {path: mDescription, value: Validate remote packet buffering.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 6, Y: -10}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C, Amount: 75}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C, Amount: 75}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 4}
+- id: Gate_TerminalCalibration_6
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Terminal Calibration VI}
+  - {path: mDescription, value: Certify remote recovery channel.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 7, Y: -11}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 35}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C, Amount: 75}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C, Amount: 5}

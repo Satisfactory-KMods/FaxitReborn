@@ -1,0 +1,182 @@
+type: dataasset
+assets:
+- id: Task_DepotUploadSpeed1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed I}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 40}
+  - path: mCoordinate
+    value: {X: 2, Y: -11}
+  - {path: mParentTask, value: 2}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C, Amount: 500}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 1}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed II}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 39}
+  - path: mCoordinate
+    value: {X: 3, Y: -12}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C, Amount: 750}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 2}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed3
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed III}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 38}
+  - path: mCoordinate
+    value: {X: 4, Y: -13}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 50}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 3}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed IV}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 37}
+  - path: mCoordinate
+    value: {X: 5, Y: -14}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 75}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 4}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed V}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 36}
+  - path: mCoordinate
+    value: {X: 6, Y: -15}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 5}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed6
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed VI}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 35}
+  - path: mCoordinate
+    value: {X: 5, Y: -16}
+  - {path: mParentTask, value: 128}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 10}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 6}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed7
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed VII}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 34}
+  - path: mCoordinate
+    value: {X: 5, Y: -17}
+  - {path: mParentTask, value: 8}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 15}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 7}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed8
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed VIII}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 33}
+  - path: mCoordinate
+    value: {X: 5, Y: -18}
+  - {path: mParentTask, value: 8}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 20}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 8}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed9
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed IX}
+  - {path: mDescription, value: Decrease Dimensional Depot upload time by another five percent.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 32}
+  - path: mCoordinate
+    value: {X: 5, Y: -19}
+  - {path: mParentTask, value: 8}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 25}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 9}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}
+- id: Task_DepotUploadSpeed10
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Depot Upload Speed X}
+  - {path: mDescription, value: Complete upload-speed expansion at fifty percent cumulative time decrease.}
+  - {path: mIcon, value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade}
+  - {path: mPriority, value: 31}
+  - path: mCoordinate
+    value: {X: 5, Y: -20}
+  - {path: mParentTask, value: 8}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 30}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C, Amount: 10}
+  unlocks:
+  - class: /Game/FactoryGame/Unlocks/BP_UnlockCentralStorageUploadSpeed.BP_UnlockCentralStorageUploadSpeed_C
+    properties:
+    - {path: mUploadSpeedPercentageDecrease, value: 5}

@@ -1,0 +1,221 @@
+name: Faxit Reborn CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: faxit-reborn-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Verify, render, and package
+    runs-on: arc-runner-set
+    outputs:
+      content_changed: ${{ steps.release-gate.outputs.content_changed }}
+      release_ready: ${{ steps.version.outputs.release_ready }}
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+
+      - name: Sync pinned CI dependencies
+        run: uv sync --locked
+        shell: bash
+
+      - name: Set CI version
+        id: version
+        shell: bash
+        run: |
+          uv run --locked python ci/version_release.py \
+            --root . \
+            --build-number "$GITHUB_RUN_NUMBER" | tee "$RUNNER_TEMP/version-output"
+          VERSION=$(sed -n 's/^version=//p' "$RUNNER_TEMP/version-output")
+          RELEASE_READY=$(sed -n 's/^release_ready=//p' "$RUNNER_TEMP/version-output")
+          test -n "$VERSION"
+          test "$RELEASE_READY" = "true" -o "$RELEASE_READY" = "false"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "release_ready=$RELEASE_READY" >> "$GITHUB_OUTPUT"
+
+      - name: Lint KDataForge content
+        run: >-
+          uv run --locked kdataforge-linter lint DataForge
+          --format github
+        shell: bash
+
+      - name: Render committed changelog
+        shell: bash
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.version }}
+        run: >-
+          uv run --locked python ci/render_changelog.py
+          --source Changelog.md
+          --output dist/CHANGELOG.md
+          --version "$RELEASE_VERSION"
+
+      - name: Render ficsit.app page
+        run: uv run --locked python ci/ficsit_page.py --root . --output dist/FICSIT_DESCRIPTION.md
+        shell: bash
+
+      - name: Package Windows and server platforms
+        run: uv run --locked python ci/package_project.py --root . --output dist/FaxitReborn.zip
+        shell: bash
+
+      - name: Detect releasable content changes
+        id: release-gate
+        shell: bash
+        run: |
+          LAST_TAG=$(git describe --tags --abbrev=0 HEAD 2>/dev/null || true)
+          if [ -n "$LAST_TAG" ]; then
+            CHANGED=$(git diff --name-only "$LAST_TAG" HEAD -- FaxitReborn.uplugin Config DataForge)
+            BASE="$LAST_TAG"
+          else
+            CHANGED=$(git ls-tree -r --name-only HEAD -- FaxitReborn.uplugin Config DataForge)
+            BASE="repository start"
+          fi
+          CHANGED=$(printf '%s\n' "$CHANGED" | grep -Ev '^Config/Alpakit\.ini$' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "content_changed=true" >> "$GITHUB_OUTPUT"
+            printf 'Releasable changes since %s:\n%s\n' "$BASE" "$CHANGED"
+          else
+            echo "content_changed=false" >> "$GITHUB_OUTPUT"
+            printf 'No releasable changes since %s.\n' "$BASE"
+          fi
+
+      - name: Upload dry-run artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: FaxitReborn-${{ steps.version.outputs.version }}
+          path: |
+            dist/FaxitReborn.zip
+            dist/CHANGELOG.md
+            dist/FICSIT_DESCRIPTION.md
+          if-no-files-found: error
+
+  deploy-ficsit-page:
+    name: Update hidden ficsit.app page
+    needs: build
+    if: >-
+      vars.ENABLE_FAXITREBORN_PAGE_DEPLOY == 'true' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: arc-runner-set
+    steps:
+      - name: Checkout matching revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+
+      - name: Sync page dependencies
+        run: uv sync --locked
+        shell: bash
+
+      - name: Download rendered page
+        uses: actions/download-artifact@v4
+        with:
+          name: FaxitReborn-${{ needs.build.outputs.version }}
+          path: release
+
+      - name: Update ficsit.app metadata and description
+        env:
+          FICSIT_TOKEN: ${{ secrets.FICSIT_TOKEN }}
+        shell: bash
+        run: |
+          test -n "$FICSIT_TOKEN"
+          uv run --locked python ci/ficsit_page.py \
+            --root . \
+            --description release/FICSIT_DESCRIPTION.md \
+            --deploy
+
+  release-github:
+    name: Create GitHub release
+    needs: build
+    if: >-
+      vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
+      needs.build.outputs.release_ready == 'true' &&
+      needs.build.outputs.content_changed == 'true' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: arc-runner-set
+    permissions:
+      contents: write
+    steps:
+      - name: Download release artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: FaxitReborn-${{ needs.build.outputs.version }}
+          path: release
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ needs.build.outputs.version }}
+          name: Faxit Reborn ${{ needs.build.outputs.version }}
+          body_path: release/CHANGELOG.md
+          files: release/FaxitReborn.zip
+          fail_on_unmatched_files: true
+          draft: false
+
+  release-ficsit:
+    name: Upload mod to ficsit.app
+    needs: [build, release-github]
+    if: >-
+      vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
+      needs.build.outputs.release_ready == 'true' &&
+      needs.build.outputs.content_changed == 'true' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: arc-runner-set
+    steps:
+      - name: Download release artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: FaxitReborn-${{ needs.build.outputs.version }}
+          path: release
+
+      - name: Install verified ficsit-CLI
+        shell: bash
+        env:
+          FICSIT_CLI_VERSION: v0.7.1
+        run: |
+          curl -fsSL "https://github.com/satisfactorymodding/ficsit-cli/releases/download/${FICSIT_CLI_VERSION}/ficsit_linux_amd64" -o "$RUNNER_TEMP/ficsit"
+          curl -fsSL "https://github.com/satisfactorymodding/ficsit-cli/releases/download/${FICSIT_CLI_VERSION}/checksums.txt" -o "$RUNNER_TEMP/ficsit.checksums"
+          grep ' ficsit_linux_amd64$' "$RUNNER_TEMP/ficsit.checksums" | sed "s#  ficsit_linux_amd64#  $RUNNER_TEMP/ficsit#" | sha256sum -c -
+          chmod +x "$RUNNER_TEMP/ficsit"
+
+      - name: Upload Faxit Reborn release
+        shell: bash
+        env:
+          FICSIT_TOKEN: ${{ secrets.FICSIT_TOKEN }}
+          FICSIT_MOD_ID: 8JCBxpPz21Yari
+        run: |
+          test -n "$FICSIT_TOKEN"
+          test "$FICSIT_MOD_ID" = "8JCBxpPz21Yari"
+          CHANGELOG="$(<release/CHANGELOG.md)"
+          test -n "$CHANGELOG"
+          "$RUNNER_TEMP/ficsit" smr upload \
+            --api-key "$FICSIT_TOKEN" \
+            --stability release \
+            "$FICSIT_MOD_ID" \
+            release/FaxitReborn.zip \
+            "$CHANGELOG"

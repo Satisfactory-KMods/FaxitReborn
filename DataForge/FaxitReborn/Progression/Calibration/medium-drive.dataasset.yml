@@ -1,0 +1,112 @@
+type: dataasset
+assets:
+- id: Gate_MediumDriveCalibration_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration I}
+  - {path: mDescription, value: Validate medium dimensional storage addressing before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64}
+  - {path: mPriority, value: 70}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 2, Y: -8}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C, Amount: 50}
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 3}
+- id: Gate_MediumDriveCalibration_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration II}
+  - {path: mDescription, value: Burn-in medium dimensional sectors before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_64.IconDesc_ModularFrameHeavy_64}
+  - {path: mPriority, value: 69}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 3, Y: -9}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C, Amount: 25}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C, Amount: 5}
+- id: Gate_MediumDriveCalibration_3
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration III}
+  - {path: mDescription, value: Validate medium-disk packet compression.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 4, Y: -10}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 25}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C, Amount: 100}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 4}
+- id: Gate_MediumDriveCalibration_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration IV}
+  - {path: mDescription, value: Validate medium-disk packet routing.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 5, Y: -11}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C, Amount: 75}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C, Amount: 5}
+- id: Gate_MediumDriveCalibration_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration V}
+  - {path: mDescription, value: Validate medium-disk packet buffering.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 6, Y: -12}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C, Amount: 50}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C, Amount: 100}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 5}
+- id: Gate_MediumDriveCalibration_6
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Medium Disk Calibration VI}
+  - {path: mDescription, value: Certify medium-disk recovery channel.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 7, Y: -13}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C, Amount: 100}
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C, Amount: 15}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C, Amount: 5}

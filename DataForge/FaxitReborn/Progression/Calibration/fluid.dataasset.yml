@@ -1,0 +1,112 @@
+type: dataasset
+assets:
+- id: Gate_FluidCalibration_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration I}
+  - {path: mDescription, value: Pressure-test dimensional fluid encoding before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_64.IconDesc_SteelPipe_64}
+  - {path: mPriority, value: 78}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 2, Y: -4}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C, Amount: 100}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 1}
+- id: Gate_FluidCalibration_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration II}
+  - {path: mDescription, value: Seal fluid and gas packet boundaries before alien-artifact recovery.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_64.IconDesc_Plastic_64}
+  - {path: mPriority, value: 77}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 3, Y: -5}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C, Amount: 100}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C, Amount: 100}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C, Amount: 5}
+- id: Gate_FluidCalibration_3
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration III}
+  - {path: mDescription, value: Validate fluid packet compression.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_64.IconDesc_SteelPipe_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 4, Y: -6}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C, Amount: 300}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C, Amount: 200}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 1}
+- id: Gate_FluidCalibration_4
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration IV}
+  - {path: mDescription, value: Validate fluid packet routing.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_64.IconDesc_Plastic_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 5, Y: -7}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C, Amount: 300}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C, Amount: 300}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C, Amount: 5}
+- id: Gate_FluidCalibration_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration V}
+  - {path: mDescription, value: Validate fluid packet buffering.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/CoolingSystem/UI/IconDesc_CoolingSystem_64.IconDesc_CoolingSystem_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 6, Y: -8}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C, Amount: 500}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C, Amount: 50}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C, Amount: 2}
+- id: Gate_FluidCalibration_6
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Fluid Calibration VI}
+  - {path: mDescription, value: Certify fluid recovery channel.}
+  - {path: mIcon, value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64}
+  - path: mTags
+    value: [KMods.Delivery.GateUnlock]
+  - path: mCoordinate
+    value: {X: 7, Y: -9}
+  - {path: mParentTask, value: 64}
+  - path: mCosts
+    value:
+    - {ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C, Amount: 50}
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C, Amount: 25}
+  - path: mRewards
+    value:
+    - {ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C, Amount: 5}

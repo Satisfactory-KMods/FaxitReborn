@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 9999,
+	"VersionName": "9999.9.9",
+	"SemVersion": "9999.9.9",
+	"FriendlyName": "Faxit Reborn",
+	"Description": "Standalone Faxit network logistics for players who do not use SatisfactoryPlus.",
+	"Category": "Logistics",
+	"CreatedBy": "Kyri123/Kyrium",
+	"CreatedByURL": "https://github.com/Kyri123",
+	"MarketplaceURL": "https://ficsit.app/mod/8JCBxpPz21Yari",
+	"SupportURL": "https://github.com/Satisfactory-KMods/FaxitReborn/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.12.0",
+			"Enabled": true
+		},
+		{
+			"Name": "KDataForge",
+			"SemVersion": ">=9999.9.9",
+			"Enabled": true
+		},
+		{
+			"Name": "KAPI",
+			"SemVersion": ">=9999.9.9",
+			"Enabled": true
+		},
+		{
+			"Name": "KPrivateCodeLib",
+			"SemVersion": ">=9999.9.9",
+			"Enabled": true
+		},
+		{
+			"Name": "KLib",
+			"SemVersion": ">=9999.9.9",
+			"Enabled": true
+		}
+	],
+	"AcceptsAnyRemoteVersion": false,
+	"GameVersion": ">=491125",
+	"GameFeatures": false
+}

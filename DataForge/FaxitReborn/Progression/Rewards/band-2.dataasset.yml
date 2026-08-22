@@ -1,0 +1,96 @@
+type: dataasset
+assets:
+- id: Reward_Somersloop_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Somersloop Recovery II}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Somersloop per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64}
+  - {path: mPriority, value: 68}
+  - path: mCoordinate
+    value: {X: -8, Y: -11}
+  - {path: mParentTask, value: 128}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 4}
+        UpperBound: {Type: Exclusive, Value: 15}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 13}
+        UpperBound: {Type: Exclusive, Value: 40}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 72}
+        UpperBound: {Type: Exclusive, Value: 217}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}
+- id: Reward_Mercer_2
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer Recovery II}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64}
+  - {path: mPriority, value: 67}
+  - path: mCoordinate
+    value: {X: 8, Y: -12}
+  - {path: mParentTask, value: 64}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 6}
+        UpperBound: {Type: Exclusive, Value: 19}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 16}
+        UpperBound: {Type: Exclusive, Value: 51}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk2.Desc_Faxit_DimensionalDrive_Mk2_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 1}
+        UpperBound: {Type: Exclusive, Value: 4}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}

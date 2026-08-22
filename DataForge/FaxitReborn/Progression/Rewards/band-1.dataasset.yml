@@ -1,0 +1,186 @@
+type: dataasset
+assets:
+- id: Reward_Somersloop_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Somersloop Recovery I}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Somersloop per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64}
+  - {path: mPriority, value: 70}
+  - path: mCoordinate
+    value: {X: -8, Y: -9}
+  - {path: mParentTask, value: 128}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 4}
+        UpperBound: {Type: Exclusive, Value: 13}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 11}
+        UpperBound: {Type: Exclusive, Value: 36}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 25}
+        UpperBound: {Type: Exclusive, Value: 76}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 43}
+        UpperBound: {Type: Exclusive, Value: 130}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 94}
+        UpperBound: {Type: Exclusive, Value: 283}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 143}
+        UpperBound: {Type: Exclusive, Value: 430}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 10}
+        UpperBound: {Type: Exclusive, Value: 31}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}
+- id: Reward_Mercer_1
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer Recovery I}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64}
+  - {path: mPriority, value: 69}
+  - path: mCoordinate
+    value: {X: 8, Y: -10}
+  - {path: mParentTask, value: 64}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 6}
+        UpperBound: {Type: Exclusive, Value: 21}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 14}
+        UpperBound: {Type: Exclusive, Value: 45}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 43}
+        UpperBound: {Type: Exclusive, Value: 130}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 50}
+        UpperBound: {Type: Exclusive, Value: 151}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 120}
+        UpperBound: {Type: Exclusive, Value: 361}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 214}
+        UpperBound: {Type: Exclusive, Value: 645}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 50}
+        UpperBound: {Type: Exclusive, Value: 151}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk1.Desc_Faxit_DimensionalDrive_Mk1_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 3}
+        UpperBound: {Type: Exclusive, Value: 10}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}

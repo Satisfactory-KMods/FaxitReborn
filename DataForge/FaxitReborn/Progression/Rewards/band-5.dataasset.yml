@@ -1,0 +1,111 @@
+type: dataasset
+assets:
+- id: Reward_Somersloop_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Somersloop Recovery V}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Somersloop per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64}
+  - {path: mPriority, value: 62}
+  - path: mCoordinate
+    value: {X: -7, Y: -16}
+  - {path: mParentTask, value: 128}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/TemporalProcessor/Desc_TemporalProcessor.Desc_TemporalProcessor_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 10}
+        UpperBound: {Type: Exclusive, Value: 31}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 67}
+        UpperBound: {Type: Exclusive, Value: 202}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/FicsiteIngot/Desc_FicsiteIngot.Desc_FicsiteIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/FicsiteMesh/Desc_FicsiteMesh.Desc_FicsiteMesh_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 2}
+        UpperBound: {Type: Exclusive, Value: 10}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}
+- id: Reward_Mercer_5
+  class: /Script/KAPI.KAPIDeliveryTask
+  properties:
+  - {path: mName, value: Mercer Recovery V}
+  - {path: mDescription, value: Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery.}
+  - {path: mIcon, value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64}
+  - {path: mPriority, value: 61}
+  - path: mCoordinate
+    value: {X: 7, Y: -17}
+  - {path: mParentTask, value: 64}
+  - {path: bIsEndless, value: true}
+  - path: mPoolElements
+    value:
+    - mItem: /Game/FactoryGame/Resource/Parts/SingularityCell/Desc_SingularityCell.Desc_SingularityCell_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 22}
+        UpperBound: {Type: Exclusive, Value: 67}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/SAMFluctuator/Desc_SAMFluctuator.Desc_SAMFluctuator_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/DarkMatter/Desc_DarkMatter.Desc_DarkMatter_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/TimeCrystal/Desc_TimeCrystal.Desc_TimeCrystal_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /Game/FactoryGame/Resource/Parts/AlienPowerFuel/Desc_AlienPowerFuel.Desc_AlienPowerFuel_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 250}
+        UpperBound: {Type: Exclusive, Value: 751}
+      mRequiredTas: -1
+    - mItem: /KLib/Assets/Parts/NetworkHardDrives/Desc_Faxit_DimensionalDrive_Mk4.Desc_Faxit_DimensionalDrive_Mk4_C
+      mAmountRange:
+        LowerBound: {Type: Inclusive, Value: 1}
+        UpperBound: {Type: Exclusive, Value: 3}
+      mRequiredTas: -1
+  - path: mTaskRewards
+    value:
+    - mRewards:
+      - {ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C, Amount: 1}
+      mRequiredTask: -1
+  - {path: mMaxTasks, value: 50}
+  - {path: mAmountMultiplierCurve, value: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardCostMultiplier}
+  - path: mAbsolutMaxItemAmount
+    value: {RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap}

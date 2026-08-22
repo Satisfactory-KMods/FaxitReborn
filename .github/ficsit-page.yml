@@ -1,0 +1,16 @@
+modId: 8JCBxpPz21Yari
+modReference: FaxitReborn
+name: Faxit Reborn
+shortDescription: Standalone Faxit network logistics. Not compatible with SatisfactoryPlus.
+sourceUrl: https://github.com/Satisfactory-KMods/FaxitReborn
+hidden: true
+networkUseDisclosure: Faxit Reborn makes no external network requests at runtime.
+aiUseDisclosure:
+  type: ai_usage
+  message: AI assistance was used for page copy, data migration, and CI tooling. Human maintainer review is required before release.
+template:
+  sourceUrl: https://github.com/Satisfactory-KMods/FaxitReborn
+  discordUrl: https://discord.gg/JsJ9XXWS7Q
+  patreonUrl: https://www.patreon.com/kmods
+  ficsitProfileUrl: https://ficsit.app/user/9uvZtCA4cM6H4q
+  multiplayer: "not-tested"
