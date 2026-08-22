@@ -436,7 +436,7 @@ assets:
         # BelowRight
       - path: mCosts
         value:
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
             Amount: 10
           - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
             Amount: 25
@@ -485,7 +485,7 @@ assets:
       - path: mDescription
         value: "Burn-in huge dimensional sectors before alien-artifact recovery."
       - path: mIcon
-        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_Adapter_512.Icon_TimeC_Adapter_512
+        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_QuantumProcessor_512.Icon_TimeC_QuantumProcessor_512
       - path: mPriority
         value: 65
       - path: mTags
@@ -500,7 +500,7 @@ assets:
         # BelowLeft
       - path: mCosts
         value:
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
             Amount: 25
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
             Amount: 200
@@ -565,7 +565,7 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
             Amount: 50
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
             Amount: 75
       - path: mRewards
         value:

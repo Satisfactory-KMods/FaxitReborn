@@ -51,7 +51,6 @@ assets:
               - Recipe_Faxit_PolarizationFrame
               - Recipe_Faxit_PoledKerrCrystal
               - Recipe_Faxit_DataCable
-              - Recipe_Faxit_QuantumCableAdapter
               - Recipe_Faxit_PhotonicProcessor
               - Recipe_FaxitDrive_Mk1
       - class: /KPrivateCodeLib/Unlocks/BP_DeliverInventorySlotUnlock.BP_DeliverInventorySlotUnlock_C
@@ -453,7 +452,7 @@ assets:
       - path: mName
         value: "Fluid and Gas Faxing"
       - path: mDescription
-        value: "Unlock fluid and gas processors plus third cable style."
+        value: "Unlock shared fluid/gas input and output processors plus third cable style."
       - path: mIcon
         value: /KLib/Assets/Buildings/Faxit/UI/Icons/Icon_BuildS_Input_Fluid.Icon_BuildS_Input_Fluid
       - path: mPriority
@@ -483,8 +482,6 @@ assets:
             value:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Input_Fluid.Recipe_CS_Input_Fluid_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Output_Fluid.Recipe_CS_Output_Fluid_C
-              - Recipe_Faxit_InputGas
-              - Recipe_Faxit_OutputGas
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_3.Recipe_CS_Cable_3_C
   - id: Task_AutomatedDelivery
     class: /Script/KAPI.KAPIDeliveryTask
@@ -538,9 +535,9 @@ assets:
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
       - path: mName
-        value: "Remote Terminal"
+        value: "Terminal"
       - path: mDescription
-        value: "Unlock Faxit terminal and remote access."
+        value: "Unlock Faxit terminal."
       - path: mIcon
         value: /KPrivateCodeLib/Unlocks/TXUI_FaxitLogo.TXUI_FaxitLogo
       - path: mPriority
@@ -571,10 +568,6 @@ assets:
           - path: mRecipes
             value:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Terminal.Recipe_CS_Terminal_C
-      - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
-        properties:
-          - path: mFeature
-            value: RemoteAccess
   - id: Task_NetworkBackbone
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -683,7 +676,7 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
             Amount: 100
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
             Amount: 25
           - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
             Amount: 1000
@@ -777,7 +770,7 @@ assets:
             Amount: 150
           - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
             Amount: 200
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
             Amount: 75
       - path: mRewards
         value:
