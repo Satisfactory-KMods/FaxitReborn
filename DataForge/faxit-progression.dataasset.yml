@@ -434,6 +434,8 @@ assets:
             Amount: 100
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
             Amount: 400
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+            Amount: 50
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -469,8 +471,10 @@ assets:
             Amount: 200
           - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
             Amount: 200
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
-            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+            Amount: 50
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C

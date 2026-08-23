@@ -26,6 +26,8 @@ This one is a data pass over the Faxit research tree. The deeper Recovery arms n
 
 - Alien-artifact Recovery deliveries now request at most five randomly selected items each, while keeping the full item pool available across repeats
 - Every selected Recovery item now rolls a base quantity between 50 and 200 units before repeat scaling
+- Every Faxit scanner and copier, solid and fluid alike, now costs Stators instead of Circuit Boards. Faxit unlocks in Tier 3, but Circuit Boards need Plastic from Tier 5, so the two buildings that make a network do anything were stranded two tiers and an oil setup away. The solid pair is now buildable in Tier 4
+- Solid Faxing now also costs 50 Stators to unlock, matching what its buildings ask for
 
 **Changes**
 
