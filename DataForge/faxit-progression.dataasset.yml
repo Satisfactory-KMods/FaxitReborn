@@ -51,7 +51,7 @@ assets:
               - Recipe_Faxit_PolarizationFrame
               - Recipe_Faxit_PoledKerrCrystal
               - Recipe_Faxit_DataCable
-              - Recipe_Faxit_PhotonicProcessor
+              - Recipe_Faxit_IronSheet
               - Recipe_FaxitDrive_Mk1
       - class: /KPrivateCodeLib/Unlocks/BP_DeliverInventorySlotUnlock.BP_DeliverInventorySlotUnlock_C
         properties:
@@ -632,6 +632,7 @@ assets:
           - path: mRecipes
             value:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Terminal.Recipe_CS_Terminal_C
+              - Recipe_Faxit_PhotonicProcessor
   - id: Task_NetworkBackbone
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
