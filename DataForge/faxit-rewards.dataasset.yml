@@ -338,8 +338,8 @@ assets:
       - path: mName
         value: "Somersloop Recovery II"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Somersloop per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
+          Water, Crude Oil, Heavy Oil Residue and Fuel here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
       - path: mPriority
@@ -400,6 +400,42 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -415,6 +451,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Mercer_2
     class: /Script/KAPI.KAPIDeliveryTask
@@ -506,8 +544,8 @@ assets:
       - path: mName
         value: "Somersloop Recovery III"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Somersloop per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
+          Alumina Solution and Sulfuric Acid here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
       - path: mPriority
@@ -568,6 +606,24 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -583,6 +639,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Mercer_3
     class: /Script/KAPI.KAPIDeliveryTask
@@ -590,8 +648,8 @@ assets:
       - path: mName
         value: "Mercer Recovery III"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Mercer Sphere per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
+          Turbofuel and Nitrogen Gas here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
       - path: mPriority
@@ -652,6 +710,24 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -667,6 +743,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Somersloop_4
     class: /Script/KAPI.KAPIDeliveryTask
@@ -674,8 +752,8 @@ assets:
       - path: mName
         value: "Somersloop Recovery IV"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Somersloop per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
+          Nitric Acid here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
       - path: mPriority
@@ -718,6 +796,15 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -733,6 +820,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Mercer_4
     class: /Script/KAPI.KAPIDeliveryTask
@@ -740,8 +829,8 @@ assets:
       - path: mName
         value: "Mercer Recovery IV"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Mercer Sphere per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
+          Rocket Fuel here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
       - path: mPriority
@@ -784,6 +873,15 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/RocketFuel/Desc_RocketFuel.Desc_RocketFuel_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -799,6 +897,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Somersloop_5
     class: /Script/KAPI.KAPIDeliveryTask
@@ -806,8 +906,8 @@ assets:
       - path: mName
         value: "Somersloop Recovery V"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Somersloop per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
+          Dark Matter Residue and Excited Photonic Matter here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
       - path: mPriority
@@ -886,6 +986,24 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/DarkEnergy/Desc_DarkEnergy.Desc_DarkEnergy_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/QuantumEnergy/Desc_QuantumEnergy.Desc_QuantumEnergy_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -901,6 +1019,8 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
 
   - id: Reward_Mercer_5
     class: /Script/KAPI.KAPIDeliveryTask
@@ -908,8 +1028,8 @@ assets:
       - path: mName
         value: "Mercer Recovery V"
       - path: mDescription
-        value: "Repeat this terminal arm up to 50 times for one Mercer Sphere per
-          delivery."
+        value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
+          Ionized Fuel here."
       - path: mIcon
         value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
       - path: mPriority
@@ -979,6 +1099,15 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
+          - mItem: /Game/FactoryGame/Resource/Parts/IonizedFuel/Desc_IonizedFuel.Desc_IonizedFuel_C
+            mAmountRange:
+              LowerBound:
+                Type: Inclusive
+                Value: 50000
+              UpperBound:
+                Type: Exclusive
+                Value: 200001
+            mRequiredTas: -1
       - path: mMaxPoolItems
         value: 5
       - path: mTaskRewards
@@ -994,3 +1123,5 @@ assets:
       - path: mAbsolutMaxItemAmount
         value:
           RF_SOLID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardSolidAmountCap
+          RF_LIQUID: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
+          RF_GAS: /KDataForge/GenAssets/FaxitReborn.Gen_FaxitReborn_RewardFluidAmountCap
