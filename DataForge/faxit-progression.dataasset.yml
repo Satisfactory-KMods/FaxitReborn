@@ -448,6 +448,66 @@ assets:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_InputSolid.Recipe_CS_InputSolid_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Output_Solid.Recipe_CS_Output_Solid_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_2.Recipe_CS_Cable_2_C
+  # Overflow handling hangs off Solid Faxing: sink first, then depot routing. Both stay optional -
+  # Task_OverflowAutomation still grants the same two features later for anyone who skips this branch.
+  - id: Task_DepotSinking
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Automatic Sinking"
+      - path: mDescription
+        value: "License Faxit to sink network overflow into the AWESOME Sink."
+      - path: mIcon
+        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+      - path: mPriority
+        value: 88
+      - path: mCoordinate
+        value:
+          X: -2
+          Y: -2
+      - path: mParentTask
+        value: 4
+        # Right: Task_SolidFaxing at (-1,-2)
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
+            Amount: 10
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
+        properties:
+          - path: mFeature
+            value: Sink
+
+  - id: Task_DimensionalDepot
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Dimensional Depot Routing"
+      - path: mDescription
+        value: "License Faxit to upload network overflow into the Dimensional Depot."
+      - path: mIcon
+        value: /KLib/Assets/Buildings/Faxit/_Teleporter/Icon_Levelpad.Icon_Levelpad
+      - path: mPriority
+        value: 87
+      - path: mCoordinate
+        value:
+          X: -3
+          Y: -3
+      - path: mParentTask
+        value: 128
+        # BelowRight: Task_DepotSinking at (-2,-2)
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
+            Amount: 100
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
+        properties:
+          - path: mFeature
+            value: Depot
+
   - id: Task_FluidFaxing
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -794,10 +854,10 @@ assets:
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
       - path: mName
-        value: "Overflow Automation"
+        value: "Expanded Dimensional Storage"
       - path: mDescription
-        value: "Enable dimensional depot routing and automatic sinking for Faxit
-          overflow."
+        value: "Unlock a fifth drive slot. Depot routing and automatic sinking are
+          licensed earlier, behind Solid Faxing."
       - path: mIcon
         value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
       - path: mPriority
@@ -825,11 +885,9 @@ assets:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
             Amount: 1
     unlocks:
-      - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
-          - path: mFeature
-            value: Depot
-      - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
-        properties:
-          - path: mFeature
-            value: Sink
+          - path: mCapacityType
+            value: Drive
+          - path: mAmount
+            value: 1
