@@ -39,6 +39,14 @@ MULTIPLAYER_BADGES = {
     "wip": multiplayer_badge("WIP", "yellow"),
 }
 
+GALLERY_HEADING = (
+    '<table width="100%" cellpadding="0" cellspacing="0"><tr>'
+    '<td style="background:#e8a202;padding:6px 14px;border-radius:6px 6px 0 0;border:none">'
+    '<strong style="color:#1a1a2e;font-size:18px">Screenshots</strong></td></tr></table>'
+)
+GALLERY_DEFAULT_WIDTH = 480
+GALLERY_DEFAULT_HEIGHT = 270
+
 UPDATE_MOD_QUERY = """
 mutation UpdateModDescription($modId: ModID!, $mod: UpdateMod!) {
   updateMod(modId: $modId, mod: $mod) {
@@ -70,6 +78,42 @@ def required_string(mapping: Mapping[str, object], key: str, context: str) -> st
     if not isinstance(value, str) or not value.strip():
         raise ConfigurationError(f"{context} requires non-empty {key}")
     return " ".join(value.split())
+
+
+def gallery_image(entry: object, index: int) -> str:
+    context = f"template gallery[{index}]"
+    if isinstance(entry, str):
+        entry = {"url": entry}
+    if not isinstance(entry, dict):
+        raise ConfigurationError(f"{context} must be a URL string or a mapping")
+    url = required_string(entry, "url", context)
+    if not url.startswith("https://"):
+        raise ConfigurationError(f"{context} url must start with https://")
+    alt = required_string(entry, "alt", context) if "alt" in entry else "Faxit Reborn screenshot"
+    sizes: dict[str, int] = {}
+    for key, fallback in (("width", GALLERY_DEFAULT_WIDTH), ("height", GALLERY_DEFAULT_HEIGHT)):
+        value = entry.get(key, fallback)
+        if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
+            raise ConfigurationError(f"{context} {key} must be a positive integer")
+        sizes[key] = value
+    return (
+        f'<img src="{html.escape(url, quote=True)}" '
+        f'width="{sizes["width"]}" height="{sizes["height"]}" '
+        f'alt="{html.escape(alt, quote=True)}" style="border-radius: 8px; margin: 4px" />'
+    )
+
+
+def render_gallery(template_config: Mapping[str, object]) -> str:
+    """Screenshot section, or an empty string so no orphan heading ships with an empty gallery."""
+    gallery = template_config.get("gallery")
+    if gallery is None:
+        return ""
+    if not isinstance(gallery, list):
+        raise ConfigurationError("template gallery must be a list")
+    images = [gallery_image(entry, index) for index, entry in enumerate(gallery)]
+    if not images:
+        return ""
+    return GALLERY_HEADING + '\n\n<div align="center">\n' + "\n".join(images) + "\n</div>"
 
 
 def load_page_config(path: Path) -> dict[str, Any]:
@@ -110,6 +154,7 @@ def template_values(root: Path, config: Mapping[str, object]) -> dict[str, str]:
         if multiplayer not in MULTIPLAYER_BADGES:
             raise ConfigurationError(f"template multiplayer must be one of {sorted(MULTIPLAYER_BADGES)}")
         values["MULTIPLAYER_BADGE"] = MULTIPLAYER_BADGES[multiplayer]
+    values["GALLERY"] = render_gallery(template_config)
     return values
 
 

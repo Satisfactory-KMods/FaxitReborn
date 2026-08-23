@@ -85,8 +85,8 @@ assets:
             Amount: 500
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 4
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -163,8 +163,8 @@ assets:
             Amount: 1000
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 6
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -241,8 +241,8 @@ assets:
             Amount: 50
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 8
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -280,8 +280,8 @@ assets:
             Amount: 250
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -319,8 +319,8 @@ assets:
             Amount: 100
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -358,8 +358,8 @@ assets:
             Amount: 10
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -398,8 +398,8 @@ assets:
             Amount: 25
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
-            Amount: 10
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 2
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
         properties:
@@ -477,8 +477,8 @@ assets:
             Amount: 50
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 4
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -518,8 +518,8 @@ assets:
             Amount: 10
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 6
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -601,8 +601,8 @@ assets:
             Amount: 1500
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
+            Amount: 8
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -642,8 +642,8 @@ assets:
             Amount: 1
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -688,8 +688,8 @@ assets:
             Amount: 1
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 1
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -733,8 +733,8 @@ assets:
             Amount: 1
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
     unlocks:
       - class: /Game/FactoryGame/Unlocks/BP_UnlockRecipe.BP_UnlockRecipe_C
         properties:
@@ -778,8 +778,8 @@ assets:
             Amount: 75
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
+            Amount: 2
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_DeliverInventorySlotUnlock.BP_DeliverInventorySlotUnlock_C
         properties:
@@ -822,8 +822,8 @@ assets:
             Amount: 1
       - path: mRewards
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C
-            Amount: 5
+          - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
+            Amount: 1
     unlocks:
       - class: /KPrivateCodeLib/Unlocks/BP_FaxitFeatureUnlock.BP_FaxitFeatureUnlock_C
         properties:

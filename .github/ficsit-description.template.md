@@ -82,13 +82,43 @@ Use either **SatisfactoryPlus** or **Faxit Reborn**, never both.
 - Capacity and transfer-speed upgrades.
 - Delivery tasks and repeatable rewards.
 
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#e8a202;padding:6px 14px;border-radius:6px 6px 0 0;border:none"><strong style="color:#1a1a2e;font-size:18px">Delivery Tasks</strong></td></tr></table>
+
+Delivery tasks are the progression system of Faxit Reborn. They are a research tree of their own: you queue a task, ship it the parts it asks for, and it pays out rewards and unlocks the next Faxit buildings, capacity and transfer speeds.
+
+**Where to find it**
+
+The delivery tree lives inside the **M.A.M.** — the same machine you use for hard drives and alien research. Open the M.A.M. and the Faxit tree is there alongside the vanilla research.
+
+**When it unlocks**
+
+| Step | Requirement |
+| --- | --- |
+| The tree appears in the M.A.M. | **Tier 1 — Field Research**, the milestone that gives you the M.A.M. itself |
+| First task, _Faxit Steel Foundation_ | **Tier 3 — Basic Steel Production** |
+| Everything after that | Gated by the tree itself, not by vanilla tiers |
+
+So the tree shows up early and empty, and opens for real once you reach steel in Tier 3.
+
+**How deliveries work**
+
+- Queue a task in the tree, then ship it what it asks for.
+- Small amounts can be handed in by hand.
+- The delivery building, unlocked by the **Automated Delivery** task, does it for you, pulling parts straight out of the network. It respects the reserve percentage you set on the Storage Nexus, so it will not drain stock you want to keep.
+- Repeatable tasks on the deeper arms run up to 50 times, paying out Somersloops and Mercer Spheres, and asking for more each run.
+- The later arms also accept fluids and gases. Those can only be delivered by the Delivery building, since raw fluids cannot be carried by hand.
+
 <table width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#e8a202;padding:6px 14px;border-radius:6px 6px 0 0;border:none"><strong style="color:#1a1a2e;font-size:18px">Getting Started</strong></td></tr></table>
 
 Install Faxit Reborn through Satisfactory Mod Manager. Required dependencies install automatically.
 
+Build a **FaxIt Storage Nexus**, connect it up with Faxit Cable, and add a **FaxIt Solid Scanner** and **FaxIt Solid Copier** to move parts in and out. Then open the M.A.M. and start working through the delivery tree.
+
 <table width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#e8a202;padding:6px 14px;border-radius:6px 6px 0 0;border:none"><strong style="color:#1a1a2e;font-size:18px">Multiplayer</strong></td></tr></table>
 
 **Multiplayer support has not been tested yet.**
+
+{{GALLERY}}
 
 ---
 

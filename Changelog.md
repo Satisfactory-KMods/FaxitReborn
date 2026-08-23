@@ -24,10 +24,16 @@ This one is a data pass over the Faxit research tree. The deeper Recovery arms n
 
 **Balancing**
 
+- Transfer speed upgrades now sit directly behind the unlock they belong to instead of deep on the main spine. Solid rates run down-left from Solid Faxing, fluid and gas rates down-right from Fluid and Gas Faxing, so you can start raising throughput as soon as you can move anything at all
+- Speed upgrade costs rescaled to climb from Tier 3 to Tier 9, and every step now also asks for the Space Elevator part of its phase, from Versatile Frameworks at the first step up to AI Expansion Servers and Ballistic Warp Drives at the last
+- Project parts are now something you spend rather than something you are handed. Every delivery that used to pay them out now pays Power Shards, Somersloops or Mercer Spheres instead, and the calibration gates that used to reward a project part now ask for one
+- Project part amounts scale with how hard they are to make: 100 to 200 of the early ones, down to 25 to 50 of the late ones
 - Alien-artifact Recovery deliveries now request at most five randomly selected items each, while keeping the full item pool available across repeats
 - Every selected Recovery item now rolls a base quantity between 50 and 200 units before repeat scaling
-- Every Faxit scanner and copier, solid and fluid alike, now costs Stators instead of Circuit Boards. Faxit unlocks in Tier 3, but Circuit Boards need Plastic from Tier 5, so the two buildings that make a network do anything were stranded two tiers and an oil setup away. The solid pair is now buildable in Tier 4
-- Solid Faxing now also costs 50 Stators to unlock, matching what its buildings ask for
+- Every Faxit scanner and copier is now buildable in Tier 4. Faxit unlocks in Tier 3, but the processors needed Circuit Boards, and the fluid pair also needed Plastic and Rubber, all of which arrive with Oil Processing in Tier 5. The buildings that make a network do anything were stranded two tiers and a whole oil setup away
+    - Circuit Boards replaced with Stators throughout
+    - Plastic and Rubber in the fluid scanner and copier replaced with Rotors
+- Solid Faxing and Fluid Faxing now cost 50 Stators to unlock, matching what their buildings ask for. Fluid Faxing no longer costs Plastic either, so nothing on the path to a working network needs oil
 
 **Changes**
 
