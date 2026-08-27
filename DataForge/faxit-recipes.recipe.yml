@@ -9,13 +9,13 @@ recipes:
       - path: mIngredients
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C
-            Amount: 30
+            Amount: 3
       - path: mProduct
         value:
           - ItemClass: /KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C
-            Amount: 20
+            Amount: 2
       - path: mManufactoringDuration
-        value: 60
+        value: 6
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C
@@ -30,15 +30,15 @@ recipes:
       - path: mIngredients
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
-            Amount: 20
+            Amount: 4
           - ItemClass: /KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C
-            Amount: 20
+            Amount: 4
       - path: mProduct
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
-            Amount: 15
+            Amount: 3
       - path: mManufactoringDuration
-        value: 60
+        value: 12
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
@@ -51,15 +51,15 @@ recipes:
       - path: mIngredients
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
-            Amount: 15
+            Amount: 1
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
-            Amount: 15
+            Amount: 1
       - path: mProduct
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
-            Amount: 15
+            Amount: 1
       - path: mManufactoringDuration
-        value: 60
+        value: 4
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
@@ -72,15 +72,15 @@ recipes:
       - path: mIngredients
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
-            Amount: 60
+            Amount: 4
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
-            Amount: 15
+            Amount: 1
       - path: mProduct
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
-            Amount: 30
+            Amount: 2
       - path: mManufactoringDuration
-        value: 60
+        value: 4
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C

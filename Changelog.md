@@ -1,16 +1,11 @@
-Iron Sheet in every Faxit building, a rebalanced optical chain, and earlier depot and sink unlocks.
+The optical chain now runs on the smallest whole-number recipes that keep the exact same rates.
 
 **Recipes**
 
-- New Iron Sheet recipe: 30 Iron Ingot into 20 Iron Sheet in a Constructor, unlocked with the Faxit Steel Foundation
-- The optical chain rebalanced onto clean per-minute rates that line up end to end
-    - Polarization Frame: 20 Copper Sheet and 20 Iron Sheet into 15 Frames, no longer uses Steel Plate
-    - Poled Kerr Crystal: 15 Frames and 15 Reanimated SAM into 15 Crystals
-    - Data Cable: 60 Wire and 15 Poled Kerr Crystal into 30 Cables
-- The Photonic Processor recipe now unlocks at Terminal instead of at the very start, since nothing before the Terminal needs one
-- Every Faxit building now uses Iron Sheet. The poles and the Storage Nexus take it in place of Steel Beam, the rest gained it outright, and Steel Beam is gone from the mod entirely. Faxit cables are unchanged
-
-**Progression**
-
-- Automatic sinking and Dimensional Depot routing now unlock right after Solid Faxing instead of only at the very end of the tree. Sinking costs 10 FICSIT Coupons, depot routing costs 5 Mercer Spheres and 100 Reanimated SAM
-- Overflow Automation, which used to be the only place those two were licensed, is now Expanded Dimensional Storage and grants a fifth drive slot instead, continuing the Medium to Huge drive line it already sat behind
+- Every Faxit production recipe was reduced to its smallest whole-number form. Inputs, outputs and duration were divided by the same factor, so all items per minute stay exactly as before, machines just cycle faster and buffer less
+    - Iron Sheet: 3 Iron Ingot into 2 Iron Sheet in 6 seconds, was 30 into 20 in 60 seconds
+    - Polarization Frame: 4 Copper Sheet and 4 Iron Sheet into 3 Frames in 12 seconds, was 20 and 20 into 15 in 60 seconds
+    - Poled Kerr Crystal: 1 Frame and 1 Reanimated SAM into 1 Crystal in 4 seconds, was 15 and 15 into 15 in 60 seconds
+    - Data Cable: 4 Wire and 1 Poled Kerr Crystal into 2 Cables in 4 seconds, was 60 and 15 into 30 in 60 seconds
+- Photonic Processor and the four Faxit Disk recipes are unchanged, they already produce a single item per cycle and cannot be reduced further
+- Building costs and unlocks are untouched
