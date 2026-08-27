@@ -310,6 +310,7 @@ recipes:
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C
+          - /Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C
   - id: Recipe_FaxitDrive_Mk2
     properties:
       - path: mDisplayName
@@ -335,6 +336,7 @@ recipes:
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+          - /Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C
   - id: Recipe_FaxitDrive_Mk3
     properties:
       - path: mDisplayName
@@ -360,6 +362,7 @@ recipes:
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+          - /Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C
   - id: Recipe_FaxitDrive_Mk4
     properties:
       - path: mDisplayName
@@ -385,3 +388,4 @@ recipes:
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
+          - /Game/FactoryGame/Buildable/-Shared/WorkBench/BP_WorkBenchComponent.BP_WorkBenchComponent_C

@@ -1,4 +1,4 @@
-The optical chain now runs on the smallest whole-number recipes that keep the exact same rates.
+The optical chain now runs on the smallest whole-number recipes that keep the exact same rates, and every Faxit Disk can be hand-crafted.
 
 **Recipes**
 
@@ -7,5 +7,6 @@ The optical chain now runs on the smallest whole-number recipes that keep the ex
     - Polarization Frame: 4 Copper Sheet and 4 Iron Sheet into 3 Frames in 12 seconds, was 20 and 20 into 15 in 60 seconds
     - Poled Kerr Crystal: 1 Frame and 1 Reanimated SAM into 1 Crystal in 4 seconds, was 15 and 15 into 15 in 60 seconds
     - Data Cable: 4 Wire and 1 Poled Kerr Crystal into 2 Cables in 4 seconds, was 60 and 15 into 30 in 60 seconds
-- Photonic Processor and the four Faxit Disk recipes are unchanged, they already produce a single item per cycle and cannot be reduced further
+- The Photonic Processor recipe already produces a single item per cycle and cannot be reduced further, so its amounts and duration are unchanged
+- All four Faxit Disks can now be hand-crafted at a Craft Bench. Their ingredients, duration and machine recipes are unchanged, the Craft Bench is simply an additional producer
 - Building costs and unlocks are untouched
