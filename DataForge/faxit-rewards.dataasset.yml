@@ -1,7 +1,5 @@
 type: dataasset
 assets:
-  # Every reward node is an arm endpoint. Phase bands I-V split vanilla items, Faxit components and drives.
-  # Each selected recovery item uses an inclusive base quantity range from 50 to 200 before repeat scaling.
   - id: Reward_Somersloop_1
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -20,7 +18,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -185,7 +182,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -350,7 +346,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -472,7 +467,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -556,7 +550,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -660,7 +653,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -764,7 +756,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -841,7 +832,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -918,7 +908,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: bIsEndless
         value: true
       - path: mPoolElements
@@ -1040,7 +1029,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: bIsEndless
         value: true
       - path: mPoolElements

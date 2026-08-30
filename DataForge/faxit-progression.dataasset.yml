@@ -1,15 +1,12 @@
 type: dataasset
 assets:
-  # Vertical spine. Root starts at (0,-1); every later node moves toward smaller Y only.
   - id: Task_FaxitFoundation
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
       - path: mName
         value: "Faxit Steel Foundation"
       - path: mDescription
-        value:
-          "Establish first Faxit core, network wiring and dimensional disk using
-          Tier 3 steel parts."
+        value: "Establish first Faxit core, network wiring and dimensional disk using Tier 3 steel parts."
       - path: mIcon
         value: /KLib/Assets/Buildings/Faxit/UI/Icons/Icon_ConverterMk1.Icon_ConverterMk1
       - path: mPriority
@@ -57,6 +54,14 @@ assets:
         properties:
           - path: mNumInventorySlotsToUnlock
             value: 2
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_Network2
     class: /Script/KAPI.KAPIDeliveryTask
@@ -74,7 +79,7 @@ assets:
           X: 0
           Y: -2
       - path: mParentTask
-        value: 8 # Bottom
+        value: 8
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -111,7 +116,7 @@ assets:
           X: 0
           Y: -3
       - path: mParentTask
-        value: 72 # Bottom | BelowLeft
+        value: 72
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -133,6 +138,14 @@ assets:
             value: Network
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_Network4
     class: /Script/KAPI.KAPIDeliveryTask
@@ -150,7 +163,7 @@ assets:
           X: 0
           Y: -4
       - path: mParentTask
-        value: 136 # Bottom | BelowRight
+        value: 136
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -189,7 +202,7 @@ assets:
           X: 0
           Y: -5
       - path: mParentTask
-        value: 72 # Bottom | BelowLeft
+        value: 72
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -228,7 +241,7 @@ assets:
           X: 0
           Y: -6
       - path: mParentTask
-        value: 136 # Bottom | BelowRight
+        value: 136
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -250,6 +263,14 @@ assets:
             value: Network
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_Network7
     class: /Script/KAPI.KAPIDeliveryTask
@@ -267,7 +288,7 @@ assets:
           X: 0
           Y: -7
       - path: mParentTask
-        value: 72 # Bottom | BelowLeft
+        value: 72
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -306,7 +327,7 @@ assets:
           X: 0
           Y: -8
       - path: mParentTask
-        value: 136 # Bottom | BelowRight
+        value: 136
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -345,7 +366,7 @@ assets:
           X: 0
           Y: -9
       - path: mParentTask
-        value: 72 # Bottom | BelowLeft
+        value: 72
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -367,6 +388,14 @@ assets:
             value: Network
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_Network10
     class: /Script/KAPI.KAPIDeliveryTask
@@ -374,8 +403,7 @@ assets:
       - path: mName
         value: "Nexus Capacity 10"
       - path: mDescription
-        value: "Complete Nexus expansion and raise total Faxit capacity to ten
-          networks."
+        value: "Complete Nexus expansion and raise total Faxit capacity to ten networks."
       - path: mIcon
         value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
       - path: mPriority
@@ -385,7 +413,7 @@ assets:
           X: 0
           Y: -10
       - path: mParentTask
-        value: 136 # Bottom | BelowRight
+        value: 136
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -408,7 +436,6 @@ assets:
           - path: mAmount
             value: 1
 
-  # Side-arm feature nodes. Rewarded calibration gates extend each arm to one repeatable endpoint.
   - id: Task_SolidFaxing
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -425,7 +452,7 @@ assets:
           X: -1
           Y: -2
       - path: mParentTask
-        value: 128 # BelowRight
+        value: 128
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -448,8 +475,14 @@ assets:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_InputSolid.Recipe_CS_InputSolid_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Output_Solid.Recipe_CS_Output_Solid_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_2.Recipe_CS_Cable_2_C
-  # Overflow handling hangs off Solid Faxing: sink first, then depot routing. Both stay optional -
-  # Task_OverflowAutomation still grants the same two features later for anyone who skips this branch.
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Task_DepotSinking
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -467,7 +500,6 @@ assets:
           Y: -2
       - path: mParentTask
         value: 4
-        # Right: Task_SolidFaxing at (-1,-2)
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C
@@ -495,7 +527,6 @@ assets:
           Y: -3
       - path: mParentTask
         value: 128
-        # BelowRight: Task_DepotSinking at (-2,-2)
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -524,7 +555,7 @@ assets:
           X: 1
           Y: -3
       - path: mParentTask
-        value: 64 # BelowLeft
+        value: 64
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -553,9 +584,7 @@ assets:
       - path: mName
         value: "Automated Delivery"
       - path: mDescription
-        value:
-          "Unlock Faxit delivery building plus one manual-delivery slot and one
-          queue slot."
+        value: "Unlock Faxit delivery building plus one manual-delivery slot and one queue slot."
       - path: mIcon
         value: /KLib/Assets/Buildings/Faxit/_Teleporter/Icon_Levelpad.Icon_Levelpad
       - path: mPriority
@@ -565,7 +594,7 @@ assets:
           X: -1
           Y: -4
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: false
       - path: mCosts
@@ -611,7 +640,7 @@ assets:
           X: 1
           Y: -5
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -649,7 +678,7 @@ assets:
           X: -1
           Y: -6
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: false
       - path: mCosts
@@ -672,6 +701,14 @@ assets:
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Tower.Recipe_CS_Tower_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_PoleStand_2.Recipe_CS_PoleStand_2_C
               - /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable_4.Recipe_CS_Cable_4_C
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Task_MediumDrive
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -688,7 +725,7 @@ assets:
           X: 1
           Y: -7
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -718,6 +755,14 @@ assets:
             value: Drive
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Task_LargeDrive
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -734,7 +779,7 @@ assets:
           X: -1
           Y: -8
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: false
       - path: mCosts
@@ -763,6 +808,14 @@ assets:
             value: Drive
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Task_HugeDrive
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -779,7 +832,7 @@ assets:
           X: 1
           Y: -9
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -808,15 +861,21 @@ assets:
             value: Drive
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Task_DeliveryThroughput
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
       - path: mName
         value: "Delivery Throughput"
       - path: mDescription
-        value:
-          "Add two manual-delivery inventory slots and two simultaneous queue
-          slots."
+        value: "Add two manual-delivery inventory slots and two simultaneous queue slots."
       - path: mIcon
         value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
       - path: mPriority
@@ -826,7 +885,7 @@ assets:
           X: -1
           Y: -10
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: false
       - path: mCosts
@@ -857,8 +916,7 @@ assets:
       - path: mName
         value: "Expanded Dimensional Storage"
       - path: mDescription
-        value: "Unlock a fifth drive slot. Depot routing and automatic sinking are
-          licensed earlier, behind Solid Faxing."
+        value: "Unlock a fifth drive slot. Depot routing and automatic sinking are licensed earlier, behind Solid Faxing."
       - path: mIcon
         value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
       - path: mPriority
@@ -868,7 +926,7 @@ assets:
           X: 1
           Y: -11
       - path: mParentTask
-        value: 192 # BelowLeft | BelowRight
+        value: 192
       - path: bRequireAllParents
         value: true
       - path: mCosts
@@ -892,3 +950,11 @@ assets:
             value: Drive
           - path: mAmount
             value: 1
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false

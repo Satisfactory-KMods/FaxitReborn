@@ -19,8 +19,6 @@ recipes:
       - path: mProducedIn
         value:
           - /Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C
-  # Faxit optical production chain. Raw Kerr Crystal is intentionally not used; Reanimated SAM is stabilized
-  # inside a Polarization Frame to produce the Poled Kerr Crystal required by every later component.
   - id: Recipe_Faxit_PolarizationFrame
     properties:
       - path: mDisplayName
@@ -110,7 +108,6 @@ recipes:
         value:
           - /Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C
 
-  # Existing KLib build recipes stay authoritative for products, categories and build-gun behavior.
   - class: /KLib/Assets/Buildings/Faxit/Recipes/Recipe_CS_Cable.Recipe_CS_Cable_C
     properties:
       - path: mIngredients
@@ -286,7 +283,6 @@ recipes:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
             Amount: 200
 
-  # Dimensional drives consume progressively deeper components from the same Faxit optical chain.
           - ItemClass: /KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C
             Amount: 100
   - id: Recipe_FaxitDrive_Mk1

@@ -1,6 +1,5 @@
 type: dataasset
 assets:
-  # Outer calibration gates. Every gate consumes vanilla items and returns a vanilla item reward.
   - id: Gate_SolidCalibration_3
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -19,7 +18,6 @@ assets:
           Y: -5
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -30,6 +28,15 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
             Amount: 1
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Gate_SolidCalibration_4
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -48,7 +55,6 @@ assets:
           Y: -6
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
@@ -61,6 +67,15 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
             Amount: 4
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Gate_SolidCalibration_5
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -79,7 +94,6 @@ assets:
           Y: -7
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
@@ -90,6 +104,15 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
             Amount: 2
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
   - id: Gate_SolidCalibration_6
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -108,7 +131,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
@@ -121,6 +143,15 @@ assets:
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
             Amount: 6
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Gate_FluidCalibration_3
     class: /Script/KAPI.KAPIDeliveryTask
@@ -140,7 +171,6 @@ assets:
           Y: -6
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -169,7 +199,6 @@ assets:
           Y: -7
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
@@ -200,7 +229,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
@@ -229,7 +257,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
@@ -261,7 +288,6 @@ assets:
           Y: -7
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
@@ -290,7 +316,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
@@ -321,7 +346,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
@@ -350,7 +374,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -382,7 +405,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
@@ -411,7 +433,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
@@ -442,7 +463,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
@@ -471,7 +491,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -503,7 +522,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
@@ -532,7 +550,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
@@ -563,7 +580,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -592,7 +608,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -624,7 +639,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -653,7 +667,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
@@ -684,7 +697,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -713,7 +725,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -745,7 +756,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
@@ -774,7 +784,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -805,7 +814,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -835,7 +843,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -864,7 +871,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -895,7 +901,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -925,7 +930,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
@@ -954,7 +958,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
@@ -985,7 +988,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -1015,7 +1017,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
@@ -1044,7 +1045,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
@@ -1075,7 +1075,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C

@@ -2,7 +2,8 @@ name: Faxit Reborn CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
   workflow_dispatch:
 
@@ -154,7 +155,9 @@ jobs:
 
   release-github:
     name: Create GitHub release
-    needs: [build, deploy-ficsit-page]
+    needs:
+      - build
+      - deploy-ficsit-page
     if: >-
       vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
       needs.build.outputs.release_ready == 'true' &&
@@ -183,7 +186,10 @@ jobs:
 
   release-ficsit:
     name: Upload mod to ficsit.app
-    needs: [build, deploy-ficsit-page, release-github]
+    needs:
+      - build
+      - deploy-ficsit-page
+      - release-github
     if: >-
       vars.ENABLE_FAXITREBORN_RELEASES == 'true' &&
       needs.build.outputs.release_ready == 'true' &&

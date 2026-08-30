@@ -45,7 +45,6 @@ curves:
       - time: 49
         value: 10000
         interpMode: constant
-  # Fluids and gases are counted in liters, so their cap mirrors the solid cap scaled by 1000.
   - id: RewardFluidAmountCap
     defaultValue: 100000000
     preInfinityExtrap: constant

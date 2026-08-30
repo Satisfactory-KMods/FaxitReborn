@@ -17,7 +17,6 @@ assets:
           Y: -3
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -37,6 +36,14 @@ assets:
             value: 45
           - path: bIsFluid
             value: false
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_FluidSpeed75
     class: /Script/KAPI.KAPIDeliveryTask
@@ -55,7 +62,6 @@ assets:
           Y: -4
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
@@ -93,7 +99,6 @@ assets:
           Y: -4
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C
@@ -113,6 +118,14 @@ assets:
             value: 60
           - path: bIsFluid
             value: false
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_FluidSpeed120
     class: /Script/KAPI.KAPIDeliveryTask
@@ -131,7 +144,6 @@ assets:
           Y: -5
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
@@ -169,7 +181,6 @@ assets:
           Y: -5
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
@@ -207,7 +218,6 @@ assets:
           Y: -6
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
@@ -245,7 +255,6 @@ assets:
           Y: -6
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
@@ -265,6 +274,14 @@ assets:
             value: 60
           - path: bIsFluid
             value: false
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_FluidSpeed210
     class: /Script/KAPI.KAPIDeliveryTask
@@ -283,7 +300,6 @@ assets:
           Y: -7
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
@@ -321,7 +337,6 @@ assets:
           Y: -7
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
@@ -359,7 +374,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
@@ -397,7 +411,6 @@ assets:
           Y: -8
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
@@ -417,6 +430,14 @@ assets:
             value: 120
           - path: bIsFluid
             value: false
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_FluidSpeed285
     class: /Script/KAPI.KAPIDeliveryTask
@@ -435,7 +456,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
@@ -473,7 +493,6 @@ assets:
           Y: -9
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/TemporalProcessor/Desc_TemporalProcessor.Desc_TemporalProcessor_C
@@ -493,6 +512,14 @@ assets:
             value: 120
           - path: bIsFluid
             value: false
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: BufferInventory
+          - path: mAmount
+            value: 1
+          - path: bUseCapacityTypeDefaultAmount
+            value: false
 
   - id: Task_FluidSpeed300
     class: /Script/KAPI.KAPIDeliveryTask
@@ -500,9 +527,7 @@ assets:
       - path: mName
         value: "Fluid Transfer 300 m³/min"
       - path: mDescription
-        value:
-          "Raise Faxit fluid transfer from 285 to final 300 cubic meters per
-          minute."
+        value: "Raise Faxit fluid transfer from 285 to final 300 cubic meters per minute."
       - path: mIcon
         value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
       - path: mPriority
@@ -513,7 +538,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C

@@ -1,8 +1,5 @@
 type: dataasset
 assets:
-  # Each repeatable alien-artifact endpoint opens two five-node upgrade branches after ten completions.
-  # Every node costs one matching artifact plus 1-5 Resource Sink Coupons by branch step.
-  # Each unlock adds exactly one slot or one Depot stack.
   - id: Upgrade_Somersloop_1_Inventory_1
     class: /Script/KAPI.KAPIDeliveryTask
     properties:
@@ -20,7 +17,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -52,7 +48,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -82,7 +77,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -112,7 +106,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -142,7 +135,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -172,7 +164,6 @@ assets:
           Y: -10
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -205,7 +196,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -235,7 +225,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -265,7 +254,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -295,7 +283,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -325,7 +312,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -357,7 +343,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -387,7 +372,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -417,7 +401,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -447,7 +430,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -477,7 +459,6 @@ assets:
           Y: -11
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -509,7 +490,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -539,7 +519,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -569,7 +548,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -599,7 +577,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -629,7 +606,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -661,7 +637,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -691,7 +666,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -721,7 +695,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -751,7 +724,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -781,7 +753,6 @@ assets:
           Y: -12
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -813,7 +784,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -843,7 +813,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -873,7 +842,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -903,7 +871,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -933,7 +900,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -965,7 +931,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -995,7 +960,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1025,7 +989,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1055,7 +1018,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1085,7 +1047,6 @@ assets:
           Y: -13
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1117,7 +1078,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1147,7 +1107,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1177,7 +1136,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1207,7 +1165,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1237,7 +1194,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1269,7 +1225,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1299,7 +1254,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1329,7 +1283,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1359,7 +1312,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1389,7 +1341,6 @@ assets:
           Y: -14
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1421,7 +1372,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1451,7 +1401,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1481,7 +1430,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1511,7 +1459,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1541,7 +1488,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1573,7 +1519,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1603,7 +1548,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1633,7 +1577,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1663,7 +1606,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1693,7 +1635,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1725,7 +1666,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1755,7 +1695,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1785,7 +1724,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1815,7 +1753,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -1845,7 +1782,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -1877,7 +1813,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1907,7 +1842,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1937,7 +1871,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1967,7 +1900,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -1997,7 +1929,6 @@ assets:
           Y: -15
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2029,7 +1960,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2059,7 +1989,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2089,7 +2018,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2119,7 +2047,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2149,7 +2076,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2181,7 +2107,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2211,7 +2136,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2241,7 +2165,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2271,7 +2194,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2301,7 +2223,6 @@ assets:
           Y: -16
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2333,7 +2254,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2363,7 +2283,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2393,7 +2312,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2423,7 +2341,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2453,7 +2370,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2485,7 +2401,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2515,7 +2430,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2545,7 +2459,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2575,7 +2488,6 @@ assets:
           Y: -21
       - path: mParentTask
         value: 128
-        # BelowRight
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2605,7 +2517,6 @@ assets:
           Y: -17
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2637,7 +2548,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2667,7 +2577,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2697,7 +2606,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2727,7 +2635,6 @@ assets:
           Y: -21
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -2757,7 +2664,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2789,7 +2695,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2819,7 +2724,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2849,7 +2753,6 @@ assets:
           Y: -21
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2879,7 +2782,6 @@ assets:
           Y: -22
       - path: mParentTask
         value: 8
-        # Bottom
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2909,7 +2811,6 @@ assets:
           Y: -18
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mRequiredParentCompletions
         value: 10
       - path: mCosts
@@ -2941,7 +2842,6 @@ assets:
           Y: -19
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -2971,7 +2871,6 @@ assets:
           Y: -20
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -3001,7 +2900,6 @@ assets:
           Y: -21
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -3031,7 +2929,6 @@ assets:
           Y: -22
       - path: mParentTask
         value: 64
-        # BelowLeft
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
