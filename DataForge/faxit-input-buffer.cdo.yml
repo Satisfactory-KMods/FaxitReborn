@@ -1,0 +1,15 @@
+# Solid input buffer.
+#
+# The shared solid buffer on network connection buildings ships off: bHasBufferInventory defaults to
+# false in KPrivateCodeLib, and KPatchwork's FaxitBufferReleaseDefault pack additionally clears it on
+# KPCLNetworkBuildingBase and every subclass.
+#
+# That release default runs at pack priority 2047483647. Packs are applied in descending pack
+# priority, so this pack (priority 100) is applied after it and this value is the one that survives.
+type: cdo
+patches:
+  - target: /KLib/Assets/Buildings/Faxit/Build_CS_InputSolid.Build_CS_InputSolid_C
+    applyToSpawnedActors: true
+    properties:
+      - path: bHasBufferInventory
+        value: true
