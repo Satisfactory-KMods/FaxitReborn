@@ -10,7 +10,6 @@ conditions:
       - KAPI
       - KPrivateCodeLib
       - KLib
-      - KAPI
   - hasMod:
       - SatisfactoryPlus
     ifNotMatch: true

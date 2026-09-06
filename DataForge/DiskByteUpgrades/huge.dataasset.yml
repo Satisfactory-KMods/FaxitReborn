@@ -1,0 +1,208 @@
+# Five optional, one-time upgrades branching from the huge disk unlock.
+# Each adds 20 percentage points to ALL disk capacities, not just this disk tier.
+type: dataasset
+assets:
+  - id: Upgrade_DiskBytes_Huge_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Bytes I"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk4.Icon_Faxit_DimensionalDrive_Mk4
+      - path: mPriority
+        value: 81
+      - path: mCoordinate
+        value:
+          X: 2
+          Y: -9
+      - path: mParentTask
+        value: 2
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 250
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 350
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 650
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 800
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Huge_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Bytes II"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk4.Icon_Faxit_DimensionalDrive_Mk4
+      - path: mPriority
+        value: 81
+      - path: mCoordinate
+        value:
+          X: 3
+          Y: -10
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 300
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 450
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+            Amount: 600
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C
+            Amount: 750
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 900
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Huge_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Bytes III"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk4.Icon_Faxit_DimensionalDrive_Mk4
+      - path: mPriority
+        value: 81
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -11
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 350
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 650
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 800
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Huge_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Bytes IV"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk4.Icon_Faxit_DimensionalDrive_Mk4
+      - path: mPriority
+        value: 81
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -12
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 400
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 600
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+            Amount: 750
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C
+            Amount: 900
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Huge_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Huge Disk Bytes V"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk4.Icon_Faxit_DimensionalDrive_Mk4
+      - path: mPriority
+        value: 81
+      - path: mCoordinate
+        value:
+          X: 6
+          Y: -13
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
+            Amount: 650
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
+            Amount: 800
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 950
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20

@@ -1,0 +1,208 @@
+# Five optional, one-time upgrades branching from the small disk unlock.
+# Each adds 20 percentage points to ALL disk capacities, not just this disk tier.
+type: dataasset
+assets:
+  - id: Upgrade_DiskBytes_Small_1
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Small Disk Bytes I"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk1.Icon_Faxit_DimensionalDrive_Mk1
+      - path: mPriority
+        value: 84
+      - path: mCoordinate
+        value:
+          X: 1
+          Y: -1
+      - path: mParentTask
+        value: 2
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+            Amount: 250
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+            Amount: 350
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 650
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
+            Amount: 800
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Small_2
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Small Disk Bytes II"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk1.Icon_Faxit_DimensionalDrive_Mk1
+      - path: mPriority
+        value: 84
+      - path: mCoordinate
+        value:
+          X: 2
+          Y: -2
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+            Amount: 300
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 450
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 600
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C
+            Amount: 750
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C
+            Amount: 900
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Small_3
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Small Disk Bytes III"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk1.Icon_Faxit_DimensionalDrive_Mk1
+      - path: mPriority
+        value: 84
+      - path: mCoordinate
+        value:
+          X: 3
+          Y: -3
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+            Amount: 350
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
+            Amount: 650
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C
+            Amount: 800
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Small_4
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Small Disk Bytes IV"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk1.Icon_Faxit_DimensionalDrive_Mk1
+      - path: mPriority
+        value: 84
+      - path: mCoordinate
+        value:
+          X: 4
+          Y: -4
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C
+            Amount: 400
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+            Amount: 600
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
+            Amount: 750
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C
+            Amount: 900
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20
+
+  - id: Upgrade_DiskBytes_Small_5
+    class: /Script/KAPI.KAPIDeliveryTask
+    properties:
+      - path: mName
+        value: "Small Disk Bytes V"
+      - path: mDescription
+        value: "Increase every Faxit disk's base byte capacity by +20%. Bonuses add together; existing byte allocations are preserved."
+      - path: mIcon
+        value: /KLib/Assets/Parts/NetworkHardDrives/UI/Icon_Faxit_DimensionalDrive_Mk1.Icon_Faxit_DimensionalDrive_Mk1
+      - path: mPriority
+        value: 84
+      - path: mCoordinate
+        value:
+          X: 5
+          Y: -5
+      - path: mParentTask
+        value: 64
+      - path: bRequireAllParents
+        value: true
+      - path: bIsEndless
+        value: false
+      - path: mCosts
+        value:
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+            Amount: 500
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C
+            Amount: 650
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 800
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C
+            Amount: 950
+          - ItemClass: /Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C
+            Amount: 1000
+    unlocks:
+      - class: /KPrivateCodeLib/Unlocks/BP_FaxitCapaUnlock.BP_FaxitCapaUnlock_C
+        properties:
+          - path: mCapacityType
+            value: DiskBytes
+          - path: mAmount
+            value: 20

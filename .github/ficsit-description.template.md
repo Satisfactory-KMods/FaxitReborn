@@ -92,11 +92,11 @@ The delivery tree lives inside the **M.A.M.** — the same machine you use for h
 
 **When it unlocks**
 
-| Step | Requirement |
-| --- | --- |
-| The tree appears in the M.A.M. | **Tier 1 — Field Research**, the milestone that gives you the M.A.M. itself |
-| First task, _Faxit Steel Foundation_ | **Tier 3 — Basic Steel Production** |
-| Everything after that | Gated by the tree itself, not by vanilla tiers |
+| Step                                 | Requirement                                                                 |
+| ------------------------------------ | --------------------------------------------------------------------------- |
+| The tree appears in the M.A.M.       | **Tier 1 — Field Research**, the milestone that gives you the M.A.M. itself |
+| First task, _Faxit Steel Foundation_ | **Tier 3 — Basic Steel Production**                                         |
+| Everything after that                | Gated by the tree itself, not by vanilla tiers                              |
 
 So the tree shows up early and empty, and opens for real once you reach steel in Tier 3.
 
