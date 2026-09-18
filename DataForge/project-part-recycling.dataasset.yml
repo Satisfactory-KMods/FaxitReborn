@@ -8,7 +8,7 @@ assets:
       - path: mDescription
         value: "Authorize phase-based recycling of obsolete Project Assembly parts."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/UI/IconDesc_Ficsit_Coupon_256.IconDesc_Ficsit_Coupon_256
       - path: mPriority
         value: 30
       - path: mTags
@@ -42,7 +42,7 @@ assets:
       - path: mDescription
         value: "Certify Smart Plating recovery after Project Assembly Phase 1."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/SmartPlate/UI/IconDesc_SpelevatorPart_1_256.IconDesc_SpelevatorPart_1_256
       - path: mPriority
         value: 29
       - path: mTags
@@ -57,7 +57,7 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
-            Amount: 200
+            Amount: 100
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -78,7 +78,7 @@ assets:
       - path: mDescription
         value: "Certify Versatile Framework and Automated Wiring recovery after Phase 2."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/Skeletalframework/UI/IconDesc_SpelevatorPart_2_256.IconDesc_SpelevatorPart_2_256
       - path: mPriority
         value: 28
       - path: mTags
@@ -93,7 +93,7 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
-            Amount: 150
+            Amount: 100
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
             Amount: 100
       - path: mRewards
@@ -116,7 +116,7 @@ assets:
       - path: mDescription
         value: "Certify Modular Engine and Adaptive Control Unit recovery after Phase 3."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/ModularEngine/UI/IconDesc_SpelevatorPart_4_256.IconDesc_SpelevatorPart_4_256
       - path: mPriority
         value: 27
       - path: mTags
@@ -131,9 +131,9 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
-            Amount: 50
+            Amount: 150
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
-            Amount: 50
+            Amount: 150
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -154,7 +154,7 @@ assets:
       - path: mDescription
         value: "Certify all four Assembly-phase Project Parts after Phase 4."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/MagneticFieldGenerator/UI/IconDesc_MagneticFieldGenerator_256.IconDesc_MagneticFieldGenerator_256
       - path: mPriority
         value: 26
       - path: mTags
@@ -169,13 +169,13 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
-            Amount: 30
+            Amount: 100
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
-            Amount: 40
+            Amount: 100
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C
-            Amount: 30
+            Amount: 100
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C
-            Amount: 30
+            Amount: 100
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -196,7 +196,7 @@ assets:
       - path: mDescription
         value: "Certify final Project Assembly part recovery after victory."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/BallisticWarpdrive/UI/IconDesc_BallisticWarpDrive_256.IconDesc_BallisticWarpDrive_256
       - path: mPriority
         value: 25
       - path: mTags
@@ -211,11 +211,11 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_10.Desc_SpaceElevatorPart_10_C
-            Amount: 25
+            Amount: 200
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_11.Desc_SpaceElevatorPart_11_C
-            Amount: 25
+            Amount: 150
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_12.Desc_SpaceElevatorPart_12_C
-            Amount: 25
+            Amount: 150
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -236,7 +236,7 @@ assets:
       - path: mDescription
         value: "Recycle 2500 surplus Smart Plating for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/SmartPlate/UI/IconDesc_SpelevatorPart_1_256.IconDesc_SpelevatorPart_1_256
       - path: mPriority
         value: 24
       - path: mCoordinate
@@ -282,7 +282,7 @@ assets:
       - path: mDescription
         value: "Recycle 5000 surplus Versatile Framework for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/Skeletalframework/UI/IconDesc_SpelevatorPart_2_256.IconDesc_SpelevatorPart_2_256
       - path: mPriority
         value: 23
       - path: mCoordinate
@@ -328,7 +328,7 @@ assets:
       - path: mDescription
         value: "Recycle 2500 surplus Automated Wiring for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/AutomatedWiring/UI/SpelevatorPart_3_256.SpelevatorPart_3_256
       - path: mPriority
         value: 22
       - path: mCoordinate
@@ -374,7 +374,7 @@ assets:
       - path: mDescription
         value: "Recycle 2500 surplus Modular Engines for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/ModularEngine/UI/IconDesc_SpelevatorPart_4_256.IconDesc_SpelevatorPart_4_256
       - path: mPriority
         value: 21
       - path: mCoordinate
@@ -420,7 +420,7 @@ assets:
       - path: mDescription
         value: "Recycle 1250 surplus Adaptive Control Units for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/ControlSystem/UI/IconDesc_SpelevatorPart_5_256.IconDesc_SpelevatorPart_5_256
       - path: mPriority
         value: 20
       - path: mCoordinate
@@ -466,7 +466,7 @@ assets:
       - path: mDescription
         value: "Recycle 2500 surplus Magnetic Field Generators for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/MagneticFieldGenerator/UI/IconDesc_MagneticFieldGenerator_256.IconDesc_MagneticFieldGenerator_256
       - path: mPriority
         value: 19
       - path: mCoordinate
@@ -512,7 +512,7 @@ assets:
       - path: mDescription
         value: "Recycle 1250 surplus Assembly Director Systems for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/AssemblyControlUnit/UI/IconDesc_AssemblyDirectorSystem_256.IconDesc_AssemblyDirectorSystem_256
       - path: mPriority
         value: 18
       - path: mCoordinate
@@ -558,7 +558,7 @@ assets:
       - path: mDescription
         value: "Recycle 1250 surplus Thermal Propulsion Rockets for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/ThermalAntimatterPropulsionRocket/UI/IconDesc_ThermalPropulsionRocket_256.IconDesc_ThermalPropulsionRocket_256
       - path: mPriority
         value: 17
       - path: mCoordinate
@@ -604,7 +604,7 @@ assets:
       - path: mDescription
         value: "Recycle 1250 surplus Nuclear Pasta for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/NuclearPasta/UI/IconDesc_NuclearPasta_256.IconDesc_NuclearPasta_256
       - path: mPriority
         value: 16
       - path: mCoordinate
@@ -650,7 +650,7 @@ assets:
       - path: mDescription
         value: "Recycle 1000 surplus Biochemical Sculptors for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/BiochemicalSculptor/UI/IconDesc_BiochemicalSculptor_256.IconDesc_BiochemicalSculptor_256
       - path: mPriority
         value: 15
       - path: mCoordinate
@@ -696,7 +696,7 @@ assets:
       - path: mDescription
         value: "Recycle 1000 surplus Ballistic Warp Drives for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/BallisticWarpdrive/UI/IconDesc_BallisticWarpDrive_256.IconDesc_BallisticWarpDrive_256
       - path: mPriority
         value: 14
       - path: mCoordinate
@@ -742,7 +742,7 @@ assets:
       - path: mDescription
         value: "Recycle 1000 surplus AI Expansion Servers for one Somersloop and two Mercer Spheres; repeat up to 50 times."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Resource/Parts/AIExpansion/_UI/IconDesc_AIExpension_256.IconDesc_AIExpension_256
       - path: mPriority
         value: 13
       - path: mCoordinate

@@ -9,7 +9,7 @@ assets:
         value: "Repeat this terminal arm up to 50 times for one Somersloop per
           delivery."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 70
       - path: mCoordinate
@@ -67,15 +67,6 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
           - mItem: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
             mAmountRange:
               LowerBound:
@@ -95,15 +86,6 @@ assets:
                 Value: 201
             mRequiredTas: -1
           - mItem: /Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C
             mAmountRange:
               LowerBound:
                 Type: Inclusive
@@ -173,7 +155,7 @@ assets:
         value: "Repeat this terminal arm up to 50 times for one Mercer Sphere per
           delivery."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 69
       - path: mCoordinate
@@ -267,25 +249,7 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
           - mItem: /Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C
             mAmountRange:
               LowerBound:
                 Type: Inclusive
@@ -337,7 +301,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
           Water, Crude Oil, Heavy Oil Residue and Fuel here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 68
       - path: mCoordinate
@@ -458,7 +422,7 @@ assets:
         value: "Repeat this terminal arm up to 50 times for one Mercer Sphere per
           delivery."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 67
       - path: mCoordinate
@@ -541,7 +505,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
           Alumina Solution and Sulfuric Acid here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 66
       - path: mCoordinate
@@ -573,15 +537,6 @@ assets:
                 Value: 201
             mRequiredTas: -1
           - mItem: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C
             mAmountRange:
               LowerBound:
                 Type: Inclusive
@@ -644,7 +599,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
           Turbofuel and Nitrogen Gas here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 65
       - path: mCoordinate
@@ -747,7 +702,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
           Nitric Acid here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 64
       - path: mCoordinate
@@ -823,7 +778,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
           Rocket Fuel here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 63
       - path: mCoordinate
@@ -899,7 +854,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Somersloop per delivery. Faxit also accepts
           Dark Matter Residue and Excited Photonic Matter here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_64.Wat_1_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 62
       - path: mCoordinate
@@ -930,15 +885,6 @@ assets:
                 Type: Exclusive
                 Value: 201
             mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/FicsiteIngot/Desc_FicsiteIngot.Desc_FicsiteIngot_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
           - mItem: /Game/FactoryGame/Resource/Parts/FicsiteMesh/Desc_FicsiteMesh.Desc_FicsiteMesh_C
             mAmountRange:
               LowerBound:
@@ -949,15 +895,6 @@ assets:
                 Value: 201
             mRequiredTas: -1
           - mItem: /Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C
-            mAmountRange:
-              LowerBound:
-                Type: Inclusive
-                Value: 50
-              UpperBound:
-                Type: Exclusive
-                Value: 201
-            mRequiredTas: -1
-          - mItem: /Game/FactoryGame/Resource/Parts/SAMIngot/Desc_SAMIngot.Desc_SAMIngot_C
             mAmountRange:
               LowerBound:
                 Type: Inclusive
@@ -1020,7 +957,7 @@ assets:
         value:  "Repeat this terminal arm up to 50 times for one Mercer Sphere per delivery. Faxit also accepts
           Ionized Fuel here."
       - path: mIcon
-        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_64.Wat_2_64
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 61
       - path: mCoordinate

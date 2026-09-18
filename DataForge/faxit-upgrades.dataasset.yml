@@ -8,7 +8,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -39,7 +39,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -68,7 +68,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -97,7 +97,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -126,7 +126,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -155,7 +155,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -187,7 +187,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -216,7 +216,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -245,7 +245,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -274,7 +274,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 50
       - path: mCoordinate
@@ -303,7 +303,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -334,7 +334,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -363,7 +363,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -392,7 +392,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -421,7 +421,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -450,7 +450,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -481,7 +481,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -510,7 +510,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -539,7 +539,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -568,7 +568,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 49
       - path: mCoordinate
@@ -597,7 +597,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -628,7 +628,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -657,7 +657,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -686,7 +686,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -715,7 +715,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -744,7 +744,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -775,7 +775,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -804,7 +804,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -833,7 +833,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -862,7 +862,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 48
       - path: mCoordinate
@@ -891,7 +891,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -922,7 +922,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -951,7 +951,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -980,7 +980,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1009,7 +1009,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1038,7 +1038,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1069,7 +1069,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1098,7 +1098,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1127,7 +1127,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1156,7 +1156,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 47
       - path: mCoordinate
@@ -1185,7 +1185,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1216,7 +1216,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1245,7 +1245,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1274,7 +1274,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1303,7 +1303,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1332,7 +1332,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1363,7 +1363,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1392,7 +1392,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1421,7 +1421,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1450,7 +1450,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 46
       - path: mCoordinate
@@ -1479,7 +1479,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1510,7 +1510,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1539,7 +1539,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1568,7 +1568,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1597,7 +1597,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1626,7 +1626,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1657,7 +1657,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1686,7 +1686,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1715,7 +1715,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1744,7 +1744,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 45
       - path: mCoordinate
@@ -1773,7 +1773,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1804,7 +1804,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1833,7 +1833,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1862,7 +1862,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1891,7 +1891,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1920,7 +1920,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1951,7 +1951,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -1980,7 +1980,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -2009,7 +2009,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -2038,7 +2038,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 44
       - path: mCoordinate
@@ -2067,7 +2067,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2098,7 +2098,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2127,7 +2127,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2156,7 +2156,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2185,7 +2185,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2214,7 +2214,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2245,7 +2245,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2274,7 +2274,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2303,7 +2303,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2332,7 +2332,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 43
       - path: mCoordinate
@@ -2361,7 +2361,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2392,7 +2392,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2421,7 +2421,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2450,7 +2450,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2479,7 +2479,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2508,7 +2508,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2539,7 +2539,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2568,7 +2568,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2597,7 +2597,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2626,7 +2626,7 @@ assets:
       - path: mDescription
         value: "Spend one Somersloop and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_1_256.Wat_1_256
       - path: mPriority
         value: 42
       - path: mCoordinate
@@ -2655,7 +2655,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2686,7 +2686,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2715,7 +2715,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2744,7 +2744,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2773,7 +2773,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional player inventory slot."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2802,7 +2802,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 1 Resource Sink Coupon to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2833,7 +2833,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 2 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2862,7 +2862,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 3 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2891,7 +2891,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 4 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate
@@ -2920,7 +2920,7 @@ assets:
       - path: mDescription
         value: "Spend one Mercer Sphere and 5 Resource Sink Coupons to unlock one additional Dimensional Depot item-stack-limit upgrade."
       - path: mIcon
-        value: /Game/FactoryGame/Buildable/Factory/TradingPost/UI/RecipeIcons/Recipe_Icon_Upgrade.Recipe_Icon_Upgrade
+        value: /Game/FactoryGame/Prototype/WAT/UI/Wat_2_256.Wat_2_256
       - path: mPriority
         value: 41
       - path: mCoordinate

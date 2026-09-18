@@ -8,7 +8,7 @@ assets:
       - path: mDescription
         value: "Calibrate physical encoding before alien-artifact recovery."
       - path: mIcon
-        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_DataCable.Icon_DataCable
+        value: /Game/FactoryGame/Resource/Parts/SteelPlate/UI/IconDesc_SteelBeam_256.IconDesc_SteelBeam_256
       - path: mPriority
         value: 80
       - path: mTags
@@ -22,10 +22,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+            Amount: 120
           - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
-            Amount: 100
+            Amount: 120
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -47,7 +47,7 @@ assets:
       - path: mDescription
         value: "Stabilize steel-side packet framing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ModularFrame/UI/IconDesc_ModularFrame_64.IconDesc_ModularFrame_64
+        value: /Game/FactoryGame/Resource/Parts/Stator/UI/IconDesc_Stator_256.IconDesc_Stator_256
       - path: mPriority
         value: 79
       - path: mTags
@@ -61,12 +61,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
             Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
             Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
-            Amount: 200
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -89,7 +87,7 @@ assets:
       - path: mDescription
         value: "Pressure-test dimensional fluid encoding before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/SteelPipe/UI/IconDesc_SteelPipe_64.IconDesc_SteelPipe_64
+        value: /Game/FactoryGame/Resource/Parts/Motor/UI/IconDesc_Engine_256.IconDesc_Engine_256
       - path: mPriority
         value: 78
       - path: mTags
@@ -103,10 +101,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C
-            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+            Amount: 30
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
+            Amount: 50
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -119,7 +117,7 @@ assets:
       - path: mDescription
         value: "Seal fluid and gas packet boundaries before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_64.IconDesc_Plastic_64
+        value: /Game/FactoryGame/Resource/Parts/Stator/UI/IconDesc_Stator_256.IconDesc_Stator_256
       - path: mPriority
         value: 77
       - path: mTags
@@ -133,12 +131,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C
-            Amount: 200
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C
+            Amount: 60
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
+            Amount: 60
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -152,7 +148,7 @@ assets:
       - path: mDescription
         value: "Validate automated delivery routing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+        value: /Game/FactoryGame/Resource/Parts/SteelPlateReinforced/UI/IconDesc_EncasedSteelBeam_256.IconDesc_EncasedSteelBeam_256
       - path: mPriority
         value: 76
       - path: mTags
@@ -166,10 +162,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
-            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C
+            Amount: 60
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C
+            Amount: 120
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -182,7 +178,7 @@ assets:
       - path: mDescription
         value: "Certify high-volume delivery buffering before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_64.IconDesc_ModularFrameHeavy_64
+        value: /Game/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_256.IconDesc_CrystalOscillator_256
       - path: mPriority
         value: 75
       - path: mTags
@@ -196,12 +192,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
             Amount: 25
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
             Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C
-            Amount: 150
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -215,7 +209,7 @@ assets:
       - path: mDescription
         value: "Harden remote terminal compute paths before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+        value: /Game/FactoryGame/Resource/Parts/HighSpeedWire/UI/IconDesc_Quickwire_256.IconDesc_Quickwire_256
       - path: mPriority
         value: 74
       - path: mTags
@@ -229,9 +223,9 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
-            Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
+          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C
+            Amount: 300
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
             Amount: 50
       - path: mRewards
         value:
@@ -245,7 +239,7 @@ assets:
       - path: mDescription
         value: "Synchronize remote-access clocks before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/CrystalOscillator/UI/IconDesc_CrystalOscillator_64.IconDesc_CrystalOscillator_64
+        value: /Game/FactoryGame/Resource/Parts/Rubber/UI/IconDesc_Rubber_256.IconDesc_Rubber_256
       - path: mPriority
         value: 73
       - path: mTags
@@ -259,12 +253,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 190
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
-            Amount: 100
+            Amount: 60
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -278,7 +270,7 @@ assets:
       - path: mDescription
         value: "Align tower relays before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/RadioControlUnit/UI/IconDesc_RadioControlUnit_64.IconDesc_RadioControlUnit_64
+        value: /Game/FactoryGame/Resource/Parts/Plastic/UI/IconDesc_Plastic_256.IconDesc_Plastic_256
       - path: mPriority
         value: 72
       - path: mTags
@@ -292,10 +284,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
-            Amount: 250
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C
-            Amount: 25
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C
+            Amount: 190
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C
+            Amount: 190
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -308,7 +300,7 @@ assets:
       - path: mDescription
         value: "Stabilize long-range Faxit relays before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/CoolingSystem/UI/IconDesc_CoolingSystem_64.IconDesc_CoolingSystem_64
+        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_256.IconDesc_Computer_256
       - path: mPriority
         value: 71
       - path: mTags
@@ -322,12 +314,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
-            Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 30
+          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
             Amount: 25
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C
-            Amount: 100
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -341,7 +331,7 @@ assets:
       - path: mDescription
         value: "Validate medium dimensional storage addressing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_64.IconDesc_Computer_64
+        value: /Game/FactoryGame/Resource/Parts/AIlimiter/UI/IconDesc_AILimiter_256.IconDesc_AILimiter_256
       - path: mPriority
         value: 70
       - path: mTags
@@ -355,10 +345,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
-            Amount: 50
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C
+            Amount: 40
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
+            Amount: 25
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -371,7 +361,7 @@ assets:
       - path: mDescription
         value: "Burn-in medium dimensional sectors before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_64.IconDesc_ModularFrameHeavy_64
+        value: /Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_256.IconDesc_Computer_256
       - path: mPriority
         value: 69
       - path: mTags
@@ -385,12 +375,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C
-            Amount: 25
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 40
           - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
-            Amount: 50
+            Amount: 30
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -404,7 +392,7 @@ assets:
       - path: mDescription
         value: "Validate large dimensional storage addressing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_256.IconDesc_ModularFrameHeavy_256
       - path: mPriority
         value: 68
       - path: mTags
@@ -418,10 +406,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
-            Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
-            Amount: 250
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C
+            Amount: 40
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 25
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -434,7 +422,7 @@ assets:
       - path: mDescription
         value: "Burn-in large dimensional sectors before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_64.IconDesc_FusedModularFrame_64
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_256.IconDesc_ModularFrameHeavy_256
       - path: mPriority
         value: 67
       - path: mTags
@@ -448,12 +436,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
-            Amount: 10
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
-            Amount: 25
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C
+            Amount: 60
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -467,7 +453,7 @@ assets:
       - path: mDescription
         value: "Validate huge dimensional storage addressing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+        value: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/UI/IconDesc_ModularFrameHeavy_256.IconDesc_ModularFrameHeavy_256
       - path: mPriority
         value: 66
       - path: mTags
@@ -481,10 +467,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
-            Amount: 50
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
-            Amount: 50
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C
+            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C
+            Amount: 40
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -497,7 +483,7 @@ assets:
       - path: mDescription
         value: "Burn-in huge dimensional sectors before alien-artifact recovery."
       - path: mIcon
-        value: /KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_QuantumProcessor_512.Icon_TimeC_QuantumProcessor_512
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_256.IconDesc_QuantumComputer_256
       - path: mPriority
         value: 65
       - path: mTags
@@ -511,12 +497,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
-            Amount: 25
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C
-            Amount: 200
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C
-            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
+            Amount: 15
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
+            Amount: 15
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
@@ -530,7 +514,7 @@ assets:
       - path: mDescription
         value: "Stress-test expanded delivery queues before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_256.IconDesc_QuantumComputer_256
       - path: mPriority
         value: 64
       - path: mTags
@@ -545,9 +529,9 @@ assets:
       - path: mCosts
         value:
           - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
-            Amount: 100
-          - ItemClass: /Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C
-            Amount: 100
+            Amount: 15
+          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C
+            Amount: 25
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -569,7 +553,7 @@ assets:
       - path: mDescription
         value: "Certify final delivery bandwidth before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+        value: /Game/FactoryGame/Resource/Parts/Battery/UI/IconDesc_Battery_256.IconDesc_Battery_256
       - path: mPriority
         value: 63
       - path: mTags
@@ -583,12 +567,10 @@ assets:
         value: 128
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
-            Amount: 50
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
-            Amount: 75
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
-            Amount: 40
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C
+            Amount: 120
+          - ItemClass: /Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C
+            Amount: 60
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT1.Desc_WAT1_C
@@ -602,7 +584,7 @@ assets:
       - path: mDescription
         value: "Audit depot overflow routing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/ComputerQuantum/UI/IconDesc_QuantumComputer_64.IconDesc_QuantumComputer_64
+        value: /Game/FactoryGame/Resource/Parts/AluminumPlate/UI/IconDesc_AluminiumSheet_256.IconDesc_AluminiumSheet_256
       - path: mPriority
         value: 62
       - path: mTags
@@ -616,10 +598,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C
-            Amount: 150
-          - ItemClass: /Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C
-            Amount: 100
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C
+            Amount: 120
+          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C
+            Amount: 20
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C
@@ -641,7 +623,7 @@ assets:
       - path: mDescription
         value: "Audit sink overflow routing before alien-artifact recovery."
       - path: mIcon
-        value: /Game/FactoryGame/Resource/Parts/TurboMotor/UI/IconDesc_TurboMotor_64.IconDesc_TurboMotor_64
+        value: /Game/FactoryGame/Resource/Parts/AluminumPlate/UI/IconDesc_AluminiumSheet_256.IconDesc_AluminiumSheet_256
       - path: mPriority
         value: 61
       - path: mTags
@@ -655,12 +637,10 @@ assets:
         value: 64
       - path: mCosts
         value:
-          - ItemClass: /Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C
-            Amount: 100
-          - ItemClass: /KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C
-            Amount: 20
-          - ItemClass: /Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C
-            Amount: 30
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C
+            Amount: 200
+          - ItemClass: /Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C
+            Amount: 150
       - path: mRewards
         value:
           - ItemClass: /Game/FactoryGame/Prototype/WAT/Desc_WAT2.Desc_WAT2_C
