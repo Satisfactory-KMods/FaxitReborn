@@ -1,13 +1,14 @@
 # Faxit Reborn
 
-Faxit Reborn brings Faxit network logistics to players who do not use SatisfactoryPlus.
+Faxit Reborn adds standalone Faxit network logistics for players who do not use SatisfactoryPlus.
 
 > **Important:** Faxit Reborn does not work with SatisfactoryPlus. Use one or the other, never both.
 
 > **Multiplayer:** Not tested yet.
 
-Build Faxit networks, move items and fluids, unlock faster transfers, expand capacity, and progress through delivery tasks.
+Build a Faxit network to move items, fluids, and gases. Delivery tasks unlock faster transfers,
+more capacity, and repeatable Somersloop or Mercer Sphere rewards as you progress.
 
-Install through Satisfactory Mod Manager. Required dependencies install automatically.
+Install Faxit Reborn through Satisfactory Mod Manager. It installs required dependencies automatically.
 
 [View Faxit Reborn on ficsit.app](https://ficsit.app/mod/8JCBxpPz21Yari)
